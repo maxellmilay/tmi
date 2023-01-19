@@ -1,3 +1,6 @@
+const { fontFamily } = require("tailwindcss/defaultTheme");
+const defaultColors = require("tailwindcss/colors");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -5,10 +8,18 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["var(--font-montserrat)", ...fontFamily.sans],
+      },
+    },
     colors: {
-      "tmi-yellow": "#EDAF22",
-      "tmi-blue": "#2C317A",
+      ...defaultColors,
+      ...{
+        "tmi-yellow": "#EDAF22",
+        "tmi-blue": "#2C317A",
+        "tmi-white": "#FFFFFF",
+      },
     },
   },
   plugins: [],
