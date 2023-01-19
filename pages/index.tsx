@@ -12,9 +12,21 @@ export default function Home() {
         </div>
       </Section>
       <Section>
-        <div>
+        <div className="mx-5 pt-5">
           <hr className="border-t-2 border-white" />
           <hr className="border-t border-white mt-1 mx-1" />
+          <div className="flex flex-col items-center mt-10">
+            <p className="text-3xl font-thin mb-3">Welcome to</p>
+            <p className="font-bold text-7xl mb-3">TMI Fellowship</p>
+            <p className="text-tmi-yellow font-thin text-2xl mb-20">we're glad you're here</p>
+            <p className="text-center text-4xl font-semibold">Live Worship Service Every <br /> Sunday at 9:30 AM</p>
+          </div>
+          <div className="flex mt-36">
+            <div className="flex flex-col">
+              <p>Follow Us!</p>
+              <p>@tmifellowship</p>
+            </div>
+          </div>
         </div>
       </Section>
 
