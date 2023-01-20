@@ -7,7 +7,7 @@ interface PropsInterface {
 export default function Section(props: PropsInterface) {
     const { children, } = props;
     return (
-        <div className='w-full h-screen bg-blue-500 px-10' >
+        <div className='w-full h-screen' >
             {children}
         </div >
     )

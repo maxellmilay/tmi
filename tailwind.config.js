@@ -19,9 +19,9 @@ module.exports = {
         "tmi-yellow": "#EDAF22",
         "tmi-blue": "#2C317A",
         "tmi-white": "#FFFFFF",
+        "tmi-gradient-blue": "#151738",
       },
     },
   },
   plugins: [],
 };
-
