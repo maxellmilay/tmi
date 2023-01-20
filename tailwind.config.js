@@ -5,13 +5,13 @@ const defaultColors = require("tailwindcss/colors");
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-montserrat)", ...fontFamily.sans],
-      },
+        sans: ["var(--font-montserrat)", ...fontFamily.sans]
+      }
     },
     colors: {
       ...defaultColors,
@@ -19,9 +19,9 @@ module.exports = {
         "tmi-yellow": "#EDAF22",
         "tmi-blue": "#2C317A",
         "tmi-white": "#FFFFFF",
-        "tmi-gradient-blue": "#151738",
-      },
-    },
+        "tmi-gradient-blue": "#151738"
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 };
