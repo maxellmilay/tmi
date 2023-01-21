@@ -1,0 +1,1 @@
+export const DISTANCE_TO_SCROLL_OPACITY = 100;
