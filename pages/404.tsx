@@ -20,8 +20,8 @@ export default function pageNotFound() {
 				<p className="text-xl font-light max-w-xs">
 					Uh oh! We can&apos;t seem to find what you&apos;re looking for
 				</p>
+				<TakeMeHomeButton />
 			</Section>
-			<TakeMeHomeButton />
 		</>
 	);
 }
