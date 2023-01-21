@@ -6,5 +6,5 @@ export default function about() {
             <div className="flex w-1/2 h-1 bg-tmi-white" />
             <p className="flex text-7xl font-bold grow justify-center">About Page</p>
         </div>
-    )
+    )   
 }
