@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import Section from '@/components/Section';
 import Link from 'next/link';
 import Image from 'next/image';
+import TakeMeHomeButton from '@/components/TakeMeHomeButton';
 
 export default function pageNotFound() {
 	return (
@@ -19,13 +20,8 @@ export default function pageNotFound() {
 				<p className="text-xl font-light max-w-xs">
 					Uh oh! We can&apos;t seem to find what you&apos;re looking for
 				</p>
-				<Link
-					className="text-white bg-tmi-blue px-4 mt-6 rounded-xl w-fit"
-					href="/"
-				>
-					Take me home
-				</Link>
 			</Section>
+			<TakeMeHomeButton />
 		</>
 	);
 }
