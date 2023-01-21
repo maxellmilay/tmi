@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Section className="bg-[url('/images/latest-sermon.png')] no-repeat bg-cover bg-top pt-96 sm:pt-80">
+      <Section className="bg-[url('/images//home/latest-sermon.png')] no-repeat bg-cover bg-top px-10 pt-96 sm:pt-80">
         <h1 className="text-3xl font-thin">LATEST SERMON</h1>
         <p className="font-bold md:text-6xl sm:text-4xl text-xl mb-8 mt-5">
           The Premise of the Promise <br /> of a Happy New Year
@@ -52,6 +52,6 @@ export default function Home() {
         <div className="flex bg-[url('/images/home/investing-pic.png')] h-full w-[50%] lg:w-[45%]  bg-cover bg-center"></div>
       </Section >
 
-    </div >
+    </ >
   )
 }
