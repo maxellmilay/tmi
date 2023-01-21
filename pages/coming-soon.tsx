@@ -1,10 +1,9 @@
 import Header from '@/components/Header';
 import Section from '@/components/Section';
-import Link from 'next/link';
 import Image from 'next/image';
 import TakeMeHomeButton from '@/components/TakeMeHomeButton';
 
-export default function comingSoon() {
+export default function ComingSoon() {
 	return (
 		<>
 			<Header />
@@ -12,7 +11,7 @@ export default function comingSoon() {
 				<div className="flex gap-4 mb-5 max-sm:text-center flex-wrap justify-center">
 					<Image
 						src="/images/coming-soon-logo.png"
-						alt="sad-face"
+						alt="coming soong logo"
 						width={200}
 						height={100}
 					/>
