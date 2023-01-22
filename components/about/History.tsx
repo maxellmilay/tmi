@@ -23,9 +23,9 @@ export default function History() {
             <Section className="flex md:items-center justify-center md:justify-start h-[80vh] px-12 sm:px-20 bg-[url('/images/about/mobile-history-bg-2.png')] md:bg-[url('/images/about/history-bg-2.png')] no-repeat bg-cover bg-center">
                 <p className='md:max-w-[40vw] text-lg sm:text-2xl text-justify leading-8 md:leading-10 mt-24 md:mt-0'>The following month, on March 10, 2018, at Parklane Hotel, TMI Mobile School Program (TMSP) was officially launched. The event was witnessed by friends and supporters representing various sectors of society.</p>
             </Section>
-            <Section className="flex relative justify-center h-[110vh] lg:h-[120vh] bg-[url('/images/about/history-bg-3.png')] no-repeat bg-cover bg-center">
+            <Section className="flex relative justify-center bg-[url('/images/about/history-bg-3.png')] no-repeat bg-cover bg-center">
                 <Image src={HistoryPic2} alt='2nd history pic' className='h-[60vw] md:h-[40vw] w-[80vw] md:[65vw] object-cover absolute -top-24 sm:-top-32 md:-top-10' />
-                <div className='flex flex-col items-center text-black max-w-[70vw] mt-[50vw] sm:mt-[50vw] md:mt-[40vw]  text-lg sm:text-2xl text-justify'>
+                <div className='flex flex-col items-center mb-16 text-black max-w-[70vw] mt-[50vw] sm:mt-[50vw] md:mt-[40vw] text-lg sm:text-2xl text-justify'>
                     <p className='mb-5'><span className='font-bold'>ON NOVEMBER 18, 2018</span>, 52 children from the resettlement area at Sito Kapasar, Barangay Budlaan, Cebu City, graduated from the program. Two more batches from the same area followed and successfully completed the program until the Covid 19 scare halted the project.</p>
                     <p>TMI Fellowship looks at 2023 with great anticipation as TMSP hopes to resume.</p>
                 </div>
