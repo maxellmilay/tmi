@@ -9,7 +9,7 @@ import HistoryPic2 from '@/public/images/about/history-pic-2.png'
 export default function about() {
 	return (
 		<Layout>
-			<Section id='history' className="flex items-end h-[50vh] md:h-[70vh] bg-[url('/images/about/history-header.png')] no-repeat bg-cover bg-center">
+			<Section id='history' className="flex items-end h-[50vh] md:h-[70vh] bg-[url('/images/about/mobile-history-header.png')] md:bg-[url('/images/about/history-header.png')] no-repeat bg-cover bg-center">
 				<div className='flex items-center my-16'>
 					<WhiteLine className='w-[55vw] ' />
 					<h1 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold ml-9 md:ml-14'>History</h1>
@@ -21,7 +21,7 @@ export default function about() {
 					<p className='text-black h-[35vw] md:h-fit w-[80vw] md:max-w-[35vw] text-justify'><span className='font-bold'>MOVED WITH THE DESIRE</span> to make a difference in the lives of underprivileged children in the marginalized sector of society who are deprived of preschool education, three families and one individual from the Nazarene Christian Fellowship College Church (NCF College Church) met, bonded, and crafted the blueprint for the free pre-school program. On February 4, 2018, in a simple worship and thanksgiving service at the residence of the Somera family in Lapu-Lapu City, Cebu, the TMI Mobile school program and Tentmakers Initiative Fellowship (TMI Fellowship) was born.</p>
 				</div>
 			</Section>
-			<Section className="flex md:items-center justify-center md:justify-start h-[80vh] px-12 sm:px-20 bg-[url('/images/about/history-bg-2.png')] no-repeat bg-cover bg-right">
+			<Section className="flex md:items-center justify-center md:justify-start h-[80vh] px-12 sm:px-20 bg-[url('/images/about/mobile-history-bg-2.png')] md:bg-[url('/images/about/history-bg-2.png')] no-repeat bg-cover bg-center">
 				<p className='md:max-w-[40vw] text-lg sm:text-2xl text-justify leading-8 md:leading-10 mt-24 md:mt-0'>The following month, on March 10, 2018, at Parklane Hotel, TMI Mobile School Program (TMSP) was officially launched. The event was witnessed by friends and supporters representing various sectors of society.</p>
 			</Section>
 			<Section className="flex relative justify-center h-[110vh] lg:h-[120vh] bg-[url('/images/about/history-bg-3.png')] no-repeat bg-cover bg-center">

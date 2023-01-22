@@ -59,10 +59,10 @@ function Header() {
   );
 
   return (
-    <>
+    <div className="fixed z-30">
       <header
         className={classNames(
-          "fixed z-10 top-0 w-full p-6 justify-between transition ease-in text-white",
+          "fixed z-30 top-0 w-full p-6 justify-between transition ease-in text-white",
           {
             "flex bg-gradient-to-b from-tmi-blue to-transparent":
               isGoingUp || isOnTop || isSidebarOpen,
@@ -111,7 +111,7 @@ function Header() {
         {renderClose}
       </header>
       {renderSidebar}
-    </>
+    </div>
   );
 }
 
