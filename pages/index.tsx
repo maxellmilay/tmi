@@ -5,7 +5,7 @@ import SocialIcons from "@/components/SocialIcons";
 export default function Home() {
   return (
     <Layout>
-      <Section className="bg-[url('/images/latest-sermon.png')] no-repeat bg-cover bg-top pt-96 sm:pt-80">
+      <Section className="bg-[url('/images/home/latest-sermon.png')] no-repeat bg-cover bg-top px-10 pt-96 sm:pt-80">
         <h1 className="text-3xl font-thin">LATEST SERMON</h1>
         <p className="font-bold md:text-6xl sm:text-4xl text-xl mb-8 mt-5">
           The Premise of the Promise <br /> of a Happy New Year
