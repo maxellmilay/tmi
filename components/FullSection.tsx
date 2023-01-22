@@ -1,16 +1,17 @@
 import { ReactNode } from 'react'
+import Section from './Section'
 
 interface PropsInterface {
     children: ReactNode
     className?: string
 }
 
-export default function Section(props: PropsInterface) {
+export default function FullSection(props: PropsInterface) {
     const { children, className } = props;
 
     return (
-        <section className={`w-full ${className}`}>
+        <Section className={`h-screen ${className}`}>
             {children}
-        </ section>
+        </ Section >
     )
 }
