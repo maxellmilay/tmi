@@ -10,10 +10,10 @@ export default function Home() {
         <p className="font-bold md:text-6xl sm:text-4xl text-xl mb-8 mt-5">
           The Premise of the Promise <br /> of a Happy New Year
         </p>
-        <button className="bg-tmi-yellow py-1.5 px-7 font-bold rounded-3xl mr-3 mb-3 text-xs sm:text-md w-fit">
+        <button className="bg-tmi-yellow py-1.5 px-7 font-bold rounded-3xl mr-3 mb-3 text-xs sm:text-md">
           Watch Now
         </button>
-        <button className="bg-transparent border border-white rounded-3xl py-1.5 px-7 text-xs sm:text-md w-fit">
+        <button className="bg-transparent border border-white rounded-3xl py-1.5 px-7 text-xs sm:text-md">
           See More Sermons
         </button>
       </Section>
