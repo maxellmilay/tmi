@@ -14,7 +14,6 @@ export default function PageNotFound() {
           width={100}
           height={100}
         />
-
         <h2 className="text-5xl font-bold mt-8">Error 404</h2>
         <p className="text-xl font-light max-w-xs">
           Uh oh! We can&apos;t seem to find what you&apos;re looking for
