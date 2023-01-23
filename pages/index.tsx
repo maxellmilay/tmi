@@ -47,7 +47,7 @@ export default function Home() {
           <p className="text-tmi-blue text-[2.2rem] leading-[2.7rem] sm:text-4xl lg:text-6xl mb-4 sm:mb-8 max-w-sm sm:max-w-lg">
             Investing for the <span className="font-bold">Cause of Christ</span>
           </p>
-          <p className="text-tmi-blue w-fit text-sm sm:text-lg lg:text-2xl mb-5 sm:mb-8 max-w-sm sm:max-w-lg">
+          <p className="text-black w-fit text-sm sm:text-lg lg:text-2xl mb-5 sm:mb-8 max-w-sm sm:max-w-lg">
             TMI Fellowship hinges on the capability of the working class to{" "}
             <span className="font-bold">effect change</span> in society for the
             Cause of Christ
@@ -63,7 +63,7 @@ export default function Home() {
           <p className="text-tmi-blue text-[2.2rem] leading-[2.7rem] sm:text-4xl lg:text-6xl mb-4 sm:mb-8 max-w-sm sm:max-w-lg">
             Rooted in <span className="font-bold">Education</span>
           </p>
-          <p className="text-tmi-blue w-fit text-sm sm:text-lg lg:text-2xl mb-5 sm:mb-8 max-w-sm sm:max-w-lg">
+          <p className="text-black w-fit text-sm sm:text-lg lg:text-2xl mb-5 sm:mb-8 max-w-sm sm:max-w-lg">
             TMI Fellowship stems from an initiative to provide{" "}
             <span className="font-bold">free education</span> to the
             marginalized sector
