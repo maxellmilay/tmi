@@ -33,23 +33,47 @@ export default function Home() {
           </p>
         </div>
         <div className="flex mt-44 md:mt-24 md:mx-5 justify-center md:justify-start">
-          <SocialIcons imgURL='/images/socials/instagram.png' alt='Instagram' />
-          <SocialIcons imgURL='/images/socials/facebook.png' alt='Facebook' />
-          <SocialIcons imgURL='/images/socials/youtube.png' alt='Youtube' />
+          <SocialIcons imgURL="/images/socials/instagram.png" alt="Instagram" />
+          <SocialIcons imgURL="/images/socials/facebook.png" alt="Facebook" />
+          <SocialIcons imgURL="/images/socials/youtube.png" alt="Youtube" />
           <div className="flex flex-col">
             <p className="font-bold">Follow Us!</p>
             <p>@tmifellowship </p>
           </div>
         </div>
-      </Section >
+      </Section>
       <Section className="flex flex-col-reverse sm:flex-row">
         <div className="flex flex-col text-center sm:text-right bg-[url('/images/home/cause-of-christ.png')] h-full sm:w-[45%] lg:w-[55%] bg-cover items-center sm:items-end px-7 lg:px-14 justify-center">
-          <p className="text-tmi-blue text-[2.2rem] leading-[2.7rem] sm:text-4xl lg:text-6xl mb-4 sm:mb-8 max-w-sm sm:max-w-lg">Investing for the <span className="font-bold">Cause of Christ</span></p>
-          <p className="text-tmi-blue w-fit text-sm sm:text-lg lg:text-2xl mb-5 sm:mb-8 max-w-sm sm:max-w-lg">TMI Fellowship hinges on the capability of the working class to <span className="font-bold">effect change</span> in society for the Cause of Christ</p>
-          <button className="bg-tmi-yellow py-1.5 px-7 font-bold rounded-3xl mr-3 mb-3 w-fit">About Us</button>
+          <p className="text-tmi-blue text-[2.2rem] leading-[2.7rem] sm:text-4xl lg:text-6xl mb-4 sm:mb-8 max-w-sm sm:max-w-lg">
+            Investing for the <span className="font-bold">Cause of Christ</span>
+          </p>
+          <p className="text-tmi-blue w-fit text-sm sm:text-lg lg:text-2xl mb-5 sm:mb-8 max-w-sm sm:max-w-lg">
+            TMI Fellowship hinges on the capability of the working class to{" "}
+            <span className="font-bold">effect change</span> in society for the
+            Cause of Christ
+          </p>
+          <button className="bg-tmi-yellow py-1.5 px-7 font-bold rounded-3xl mr-3 mb-3 w-fit">
+            About Us
+          </button>
         </div>
         <div className="flex bg-[url('/images/home/investing-pic.png')] h-full sm:w-[55%] lg:w-[45%] bg-cover bg-top sm:bg-center"></div>
-      </Section >
+      </Section>
+      <Section className="flex flex-col-reverse sm:flex-row-reverse">
+        <div className="flex flex-col text-center sm:text-left bg-[url('/images/home/rooted-in-education.png')] h-full sm:w-[45%] lg:w-[55%] bg-cover items-center sm:items-start px-7 lg:px-14 justify-center">
+          <p className="text-tmi-blue text-[2.2rem] leading-[2.7rem] sm:text-4xl lg:text-6xl mb-4 sm:mb-8 max-w-sm sm:max-w-lg">
+            Rooted in <span className="font-bold">Education</span>
+          </p>
+          <p className="text-tmi-blue w-fit text-sm sm:text-lg lg:text-2xl mb-5 sm:mb-8 max-w-sm sm:max-w-lg">
+            TMI Fellowship stems from an initiative to provide{" "}
+            <span className="font-bold">free education</span> to the
+            marginalized sector
+          </p>
+          <button className="bg-tmi-yellow py-1.5 px-8 font-bold rounded-3xl mr-3 mb-3 w-fit">
+            Our Ministry
+          </button>
+        </div>
+        <div className="flex bg-[url('/images/home/rooted-pic.png')] h-full sm:w-[55%] lg:w-[45%] bg-cover bg-top sm:bg-center"></div>
+      </Section>
     </Layout>
-  )
+  );
 }
