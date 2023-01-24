@@ -1,12 +1,24 @@
-.social-media-call {
-  display: grid;
+.call-container {
   grid-template-columns: 55% 45%;
   grid-template-rows: 25% 25% 25%;
+}
+
+.socmed-call {
   grid-template-areas:
     "icons call"
     "icons call"
     "icons handle"
     "icons handle";
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-socmed-call {
+    grid-template-areas:
+      "call call"
+      "icons icons"
+      "icons icons"
+      "handle handle";
+  }
 }
 
 .icons {

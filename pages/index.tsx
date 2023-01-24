@@ -1,4 +1,3 @@
-import "@/styles/index.css";
 import Layout from "@/components/Layout";
 import Section from "@/components/Section";
 import SocialIcons from "@/components/SocialIcons";
@@ -6,7 +5,7 @@ import SocialIcons from "@/components/SocialIcons";
 export default function Home() {
   return (
     <Layout>
-      <Section className="h-screen bg-[url('/images/home/latest-sermon.png')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pt-[26rem] sm:pt-[24rem] md:pt-[20rem] lg:pt-[22rem] xl:pt-[28rem]">
+      <Section className="h-screen bg-[url('/images/home/latest-sermon.png')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pt-[26rem] sm:pt-[24rem] md:pt-[20rem] lg:pt-[22rem] xl:pt-[22rem]">
         <h1 className="text-3xl font-thin">LATEST SERMON</h1>
         <p className="font-bold md:text-6xl sm:text-4xl text-xl mb-8 mt-5">
           The Premise of the Promise <br /> of a Happy New Year
@@ -21,7 +20,7 @@ export default function Home() {
       <Section className="h-screen bg-[url('/images/home/welcome-to-tmi.png')] no-repeat px-6 sm:px-10 bg-cover bg-top p-5">
         <hr className="border-t-2 border-white" />
         <hr className="border-t border-white mt-1 mx-1" />
-        <div className="flex flex-col items-center mt-14 xl:mt-24">
+        <div className="flex flex-col items-center mt-14">
           <p className="text-xl sm:text-3xl font-thin mb-4">Welcome to</p>
           <h2 className="font-bold md:text-7xl sm:text-5xl text-4xl mb-4">
             TMI Fellowship
@@ -33,14 +32,14 @@ export default function Home() {
             Live Worship Service Every <br /> Sunday at 9:30 AM
           </p>
         </div>
-        <div className="flex md:mx-5 justify-center md:justify-start mt-44 md:mt-24 lg:mt-28 xl:mt-48">
-          <SocialIcons imgURL="/images/socials/instagram.png" alt="Instagram" />
-          <SocialIcons imgURL="/images/socials/facebook.png" alt="Facebook" />
-          <SocialIcons imgURL="/images/socials/youtube.png" alt="Youtube" />
-          <div className="flex flex-col">
-            <p className="font-bold">Follow Us!</p>
-            <p>@tmifellowship </p>
+        <div className="grid call-container mobile-socmed-call socmed-call w-fit mx-auto md:mx-5 mt-44 sm:mt-36 md:mt-24 lg:mt-28 xl:mt-28 ">
+          <div className="flex icons">
+            <SocialIcons imgURL="/images/socials/instagram.png" alt="Instagram" />
+            <SocialIcons imgURL="/images/socials/facebook.png" alt="Facebook" />
+            <SocialIcons imgURL="/images/socials/youtube.png" alt="Youtube" />
           </div>
+          <p className="font-bold call text-center md:text-left">Follow Us!</p>
+          <p className="handle text-center md:text-left">@tmifellowship </p>
         </div>
       </Section>
       <Section className="h-screen flex flex-col-reverse sm:flex-row">
