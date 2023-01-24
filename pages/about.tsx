@@ -1,10 +1,15 @@
 import Layout from '@/components/Layout';
 import React from 'react';
+import History from '@/components/about/History';
+import Mission from '@/components/about/Mission';
+import Statement from '@/components/about/Statement';
 
 export default function about() {
 	return (
 		<Layout>
-			<p className="flex text-7xl font-bold grow justify-center">About Page</p>
+			<History />
+			<Mission />
+			<Statement />
 		</Layout>
 	);
 }

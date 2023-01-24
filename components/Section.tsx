@@ -3,13 +3,14 @@ import { ReactNode } from 'react'
 interface PropsInterface {
     children: ReactNode
     className?: string
+    id?: string
 }
 
 export default function Section(props: PropsInterface) {
-    const { children, className } = props;
+    const { children, className, id } = props;
 
     return (
-        <section className={`w-full h-screen ${className}`}>
+        <section id={id} className={`w-full ${className}`}>
             {children}
         </ section>
     )

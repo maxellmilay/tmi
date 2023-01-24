@@ -62,7 +62,7 @@ function Header() {
     <>
       <header
         className={classNames(
-          "fixed z-10 top-0 w-full p-6 justify-between transition ease-in text-white",
+          "fixed z-20 top-0 w-full p-6 justify-between transition ease-in text-white",
           {
             "flex bg-gradient-to-b from-tmi-blue to-transparent":
               isGoingUp || isOnTop || isSidebarOpen,
