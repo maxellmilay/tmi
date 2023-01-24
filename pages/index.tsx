@@ -1,4 +1,3 @@
-
 import Layout from "@/components/Layout";
 import Section from "@/components/Section";
 import SocialIcons from "@/components/SocialIcons";
