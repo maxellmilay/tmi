@@ -1,0 +1,22 @@
+.social-media-call {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  grid-template-rows: 25% 25% 25%;
+  grid-template-areas:
+    "icons call"
+    "icons call"
+    "icons handle"
+    "icons handle";
+}
+
+.icons {
+  grid-area: icons;
+}
+
+.call {
+  grid-area: call;
+}
+
+.handle {
+  grid-area: handle;
+}
