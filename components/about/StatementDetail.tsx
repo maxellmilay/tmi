@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 interface PropsInterface {
   className?: string;
@@ -14,13 +13,9 @@ export default function StatementDetail(props: PropsInterface) {
     <div
       className={`flex relative h-fit justify-center items-center text-center w-[70vw] ${className}`}
     >
-      <Image
-        src={number}
-        height={50}
-        width={50}
-        alt="number"
-        className="absolute w-auto h-20"
-      />
+      <p className="absolute -z-10 shadow-blue text-9xl opacity-70 font-garamond text-outlined text-white number-container">
+        {number}
+      </p>
       <p className="text-md sm:text-lg md:text-xl">{info}</p>
     </div>
   );
