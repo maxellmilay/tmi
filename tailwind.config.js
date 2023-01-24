@@ -13,6 +13,9 @@ module.exports = {
         sans: ["var(--font-montserrat)", ...fontFamily.sans],
         garamond: ["var(--font-garamond)"],
       },
+      height: {
+        empty: "calc(100vh - 108px)",
+      },
     },
     colors: {
       ...defaultColors,
