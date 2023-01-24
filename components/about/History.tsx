@@ -1,6 +1,5 @@
 import React from 'react'
 import Section from '@/components/Section';
-import WhiteLine from '@/components/WhiteLine';
 import Image from 'next/image';
 import HistoryPic1 from '@/public/images/about/history-pic-1.png'
 import HistoryPic2 from '@/public/images/about/history-pic-2.png'
@@ -10,7 +9,7 @@ export default function History() {
         <>
             <Section id='history' className="flex items-end h-[50vh] md:h-[70vh] bg-[url('/images/about/mobile-history-header.png')] md:bg-[url('/images/about/history-header.png')] no-repeat bg-cover bg-center">
                 <div className='flex items-center my-16'>
-                    <WhiteLine className='w-[55vw] ' />
+                    <div className='h-2 bg-white w-[55vw]' />
                     <h1 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold ml-9 md:ml-14'>History</h1>
                 </div>
             </Section>

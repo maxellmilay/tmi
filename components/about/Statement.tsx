@@ -1,6 +1,5 @@
 import React from 'react'
 import Section from '../Section'
-import WhiteLine from '../WhiteLine'
 import StatementDetail from './StatementDetail'
 
 export default function Statement() {
@@ -9,7 +8,7 @@ export default function Statement() {
             <Section id='statement' className="flex items-end justify-end h-[20vh] md:h-[30vh] bg-[url('/images/about/mission-header.png')] no-repeat bg-cover bg-center">
                 <div className='flex items-center mb-5'>
                     <h2 className='text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mr-3 sm:mr-7 md:mr-14'>Statement of Faith</h2>
-                    <WhiteLine className='w-[40vw] md:w-[45vw] ' />
+                    <div className='h-2 bg-white w-[40vw] md:w-[45vw]' />
                 </div>
             </Section>
             <Section className='flex flex-col items-center py-14 md:py-24 text-tmi-blue'>
