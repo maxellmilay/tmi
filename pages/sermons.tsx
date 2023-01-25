@@ -2,7 +2,7 @@ import ComingSoon from "@/components/ComingSoon";
 import Layout from "@/components/Layout";
 import React from "react";
 
-function sermons() {
+function Sermons() {
   return (
     <Layout>
       <ComingSoon />
@@ -10,4 +10,4 @@ function sermons() {
   );
 }
 
-export default sermons;
+export default Sermons;

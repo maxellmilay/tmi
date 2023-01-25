@@ -2,7 +2,7 @@ import ComingSoon from "@/components/ComingSoon";
 import Layout from "@/components/Layout";
 import React from "react";
 
-function events() {
+function Events() {
   return (
     <Layout>
       <ComingSoon />
@@ -10,4 +10,4 @@ function events() {
   );
 }
 
-export default events;
+export default Events;

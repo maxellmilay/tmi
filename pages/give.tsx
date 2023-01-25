@@ -2,7 +2,7 @@ import ComingSoon from "@/components/ComingSoon";
 import Layout from "@/components/Layout";
 import React from "react";
 
-function give() {
+function Give() {
   return (
     <Layout>
       <ComingSoon />
@@ -10,4 +10,4 @@ function give() {
   );
 }
 
-export default give;
+export default Give;

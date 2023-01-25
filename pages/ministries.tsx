@@ -2,7 +2,7 @@ import ComingSoon from "@/components/ComingSoon";
 import Layout from "@/components/Layout";
 import React from "react";
 
-function ministries() {
+function Ministries() {
   return (
     <Layout>
       <ComingSoon />
@@ -10,4 +10,4 @@ function ministries() {
   );
 }
 
-export default ministries;
+export default Ministries;

@@ -2,7 +2,7 @@ import ComingSoon from "@/components/ComingSoon";
 import Layout from "@/components/Layout";
 import React from "react";
 
-function admin() {
+function Admin() {
   return (
     <Layout>
       <ComingSoon />
@@ -10,4 +10,4 @@ function admin() {
   );
 }
 
-export default admin;
+export default Admin;
