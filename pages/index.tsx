@@ -104,6 +104,9 @@ export default function Home() {
             </button>
           </Link>
         </div>
+        <div className="flex h-full sm:w-1/2 overflow-hidden">
+          <div className="h-full w-full bg-[url('/images/home/investing-pic.png')] bg-cover bg-top scale-105 hover:scale-100 hover:duration-500 transition-all" />
+        </div>
       </Section>
       <Section className="h-screen flex flex-col-reverse sm:flex-row-reverse">
         <div className="flex flex-col text-center sm:text-left bg-[url('/images/home/rooted-in-education.png')] h-full sm:w-1/2 bg-cover items-center sm:items-start px-7 lg:px-14 justify-center">
@@ -120,6 +123,9 @@ export default function Home() {
               Our Ministry
             </button>
           </Link>
+        </div>
+        <div className="flex h-full sm:w-1/2 overflow-hidden">
+          <div className="h-full w-full bg-[url('/images/home/rooted-pic.png')] bg-cover bg-top sm:bg-center scale-105 hover:scale-100 hover:duration-500 transition-all" />
         </div>
       </Section>
     </Layout>
