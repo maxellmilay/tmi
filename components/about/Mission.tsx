@@ -1,12 +1,18 @@
-import React from 'react'
+import { useEffect } from 'react'
 import Section from '../Section'
 import MissionDetail from './MissionDetail'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 export default function Mission() {
+    useEffect(() => {
+        AOS.init({ duration: 750 })
+    }, [])
+
     return (
         <>
             <Section id='mission' className="flex items-end justify-end h-[20vh] md:h-[35vh] bg-[url('/images/about/mission-header.png')] no-repeat bg-cover bg-center">
-                <div className='flex items-center mb-5'>
+                <div className='flex items-center mb-5' data-aos="fade-left">
                     <h2 className='font-bold text-3xl sm:text-5xl md:text-6xl lg:text-7xl mr-9 md:mr-14'>Mission</h2>
                     <div className='h-2 bg-white w-[50vw] md:w-[60vw]' />
                 </div>

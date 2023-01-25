@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 export default function Home() {
 
   useEffect(() => {
-    AOS.init({ duration: 500 })
+    AOS.init({ duration: 750 })
   }, [])
 
   return (

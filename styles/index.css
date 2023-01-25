@@ -34,10 +34,10 @@
 }
 
 .landing-section-text {
-  animation: transitionIn 0.75s;
+  animation: homeTransition 1s;
 }
 
-@keyframes transitionIn {
+@keyframes homeTransition {
   from {
     opacity: 0;
     transform: translateY(50px);
