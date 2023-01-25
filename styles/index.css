@@ -33,7 +33,7 @@
   grid-area: handle;
 }
 
-.landing-section-text {
+.home-landing-animation {
   animation: homeTransition 1s;
 }
 

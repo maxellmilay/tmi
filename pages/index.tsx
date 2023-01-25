@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <Layout>
       <Section className="h-screen bg-[url('/images/home/latest-sermon.png')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pt-[26rem] sm:pt-[24rem] md:pt-[20rem] lg:pt-[20rem]">
-        <div className="landing-section-text">
+        <div className="home-landing-animation">
           <h1 className="text-3xl font-thin">LATEST SERMON</h1>
           <p className="font-bold md:text-6xl sm:text-4xl text-xl mb-8 mt-5">
             The Premise of the Promise <br /> of a Happy New Year
