@@ -43,7 +43,7 @@ export default function Home() {
         </div>
       </Section>
       <Section className="h-screen flex flex-col-reverse sm:flex-row">
-        <div className="flex flex-col text-center sm:text-right bg-[url('/images/home/cause-of-christ.png')] h-full sm:w-[45%] lg:w-[55%] bg-cover items-center sm:items-end px-7 lg:px-14 justify-center">
+        <div className="flex flex-col text-center sm:text-right bg-[url('/images/home/cause-of-christ.png')] h-full sm:w-1/2 bg-cover items-center sm:items-end px-7 lg:px-14 justify-center">
           <p className="text-tmi-blue text-[2.2rem] leading-[2.7rem] sm:text-4xl lg:text-6xl mb-4 sm:mb-8 max-w-sm sm:max-w-lg">
             Investing for the <span className="font-bold">Cause of Christ</span>
           </p>
@@ -56,10 +56,12 @@ export default function Home() {
             About Us
           </button>
         </div>
-        <div className="flex bg-[url('/images/home/investing-pic.png')] h-full sm:w-[55%] lg:w-[45%] bg-cover bg-top sm:bg-center"></div>
+        <div className="flex h-full sm:w-1/2 overflow-hidden">
+          <div className="h-full w-full bg-[url('/images/home/investing-pic.png')] bg-cover bg-top scale-105 hover:scale-100 hover:duration-500 transition-all" />
+        </div>
       </Section>
       <Section className="h-screen flex flex-col-reverse sm:flex-row-reverse">
-        <div className="flex flex-col text-center sm:text-left bg-[url('/images/home/rooted-in-education.png')] h-full sm:w-[45%] lg:w-[55%] bg-cover items-center sm:items-start px-7 lg:px-14 justify-center">
+        <div className="flex flex-col text-center sm:text-left bg-[url('/images/home/rooted-in-education.png')] h-full sm:w-1/2 bg-cover items-center sm:items-start px-7 lg:px-14 justify-center">
           <p className="text-tmi-blue text-[2.2rem] leading-[2.7rem] sm:text-4xl lg:text-6xl mb-4 sm:mb-8 max-w-sm sm:max-w-lg">
             Rooted in <span className="font-bold">Education</span>
           </p>
@@ -72,7 +74,9 @@ export default function Home() {
             Our Ministry
           </button>
         </div>
-        <div className="flex bg-[url('/images/home/rooted-pic.png')] h-full sm:w-[55%] lg:w-[45%] bg-cover bg-top sm:bg-center"></div>
+        <div className="flex h-full sm:w-1/2 overflow-hidden">
+          <div className="h-full w-full bg-[url('/images/home/rooted-pic.png')] bg-cover bg-top sm:bg-center scale-105 hover:scale-100 hover:duration-500 transition-all" />
+        </div>
       </Section>
     </Layout>
   );
