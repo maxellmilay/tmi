@@ -1,15 +1,21 @@
-import React from "react";
+import { useEffect } from "react";
 import Section from "../Section";
 import StatementDetail from "./StatementDetail";
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 export default function Statement() {
+  useEffect(() => {
+    AOS.init({ duration: 750 })
+  }, [])
+
   return (
     <>
       <Section
         id="statement"
         className="flex items-end justify-end h-[20vh] md:h-[30vh] bg-[url('/images/about/mission-header.png')] no-repeat bg-cover bg-center"
       >
-        <div className="flex items-center mb-5">
+        <div className="flex items-center mb-5" data-aos="fade-left">
           <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mr-3 sm:mr-7 md:mr-14">
             Statement of Faith
           </h2>

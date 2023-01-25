@@ -32,3 +32,18 @@
 .handle {
   grid-area: handle;
 }
+
+.home-landing-animation {
+  animation: homeTransition 1s;
+}
+
+@keyframes homeTransition {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

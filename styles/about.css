@@ -1,0 +1,14 @@
+.history-header-animation {
+  animation: aboutTransition 1s;
+}
+
+@keyframes aboutTransition {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

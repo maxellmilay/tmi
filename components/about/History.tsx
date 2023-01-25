@@ -8,7 +8,7 @@ export default function History() {
     return (
         <>
             <Section id='history' className="flex items-end h-[50vh] md:h-[70vh] bg-[url('/images/about/mobile-history-header.png')] md:bg-[url('/images/about/history-header.png')] no-repeat bg-cover bg-center">
-                <div className='flex items-center my-16'>
+                <div className='history-header-animation flex items-center my-16'>
                     <div className='h-2 bg-white w-[55vw]' />
                     <h1 className='text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold ml-9 md:ml-14'>History</h1>
                 </div>
