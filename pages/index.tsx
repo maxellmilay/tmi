@@ -2,30 +2,39 @@ import { useEffect } from "react";
 import Layout from "@/components/Layout";
 import Section from "@/components/Section";
 import SocialIcons from "@/components/SocialIcons";
-import AOS from 'aos'
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import Link from "next/link";
 
 export default function Home() {
-
   useEffect(() => {
-    AOS.init({ duration: 750 })
-  }, [])
+    AOS.init({ duration: 750 });
+  }, []);
 
   return (
     <Layout>
-      <Section className="h-screen bg-[url('/images/home/latest-sermon.png')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pt-[26rem] sm:pt-[24rem] md:pt-[20rem] lg:pt-[20rem]">
-        <div className="home-landing-animation">
-          <h1 className="text-3xl font-thin">LATEST SERMON</h1>
-          <p className="font-bold md:text-6xl sm:text-4xl text-xl mb-8 mt-5">
-            The Premise of the Promise <br /> of a Happy New Year
-          </p>
+      <Section className="h-screen bg-[url('/images/home/latest-sermon.png')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pt-[26rem] sm:pt-[24rem] md:pt-[20rem] lg:pt-[22rem] xl:pt-[22rem]">
+        <h1 className="text-3xl font-thin">LATEST SERMON</h1>
+        <p className="font-bold md:text-6xl sm:text-4xl text-xl mb-8 mt-5">
+          The Premise of the Promise <br /> of a Happy New Year
+        </p>
+        <a
+          href="https://www.facebook.com/tmifellowship/videos/550880893729724"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button className="bg-tmi-yellow py-1.5 px-7 font-bold rounded-3xl mr-3 mb-3 text-xs sm:text-xl">
             Watch Now
           </button>
+        </a>
+        <a
+          href="https://www.facebook.com/tmifellowship/videos"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button className="bg-transparent border border-white rounded-3xl py-1.5 px-7 text-xs sm:text-xl">
             See More Sermons
           </button>
-        </div>
+        </a>
       </Section>
       <Section className="h-screen bg-[url('/images/home/welcome-to-tmi.png')] no-repeat px-6 sm:px-10 bg-cover bg-top p-5">
         <hr className="border-t-2 border-white" />
@@ -44,9 +53,33 @@ export default function Home() {
         </div>
         <div className="grid call-container mobile-socmed-call socmed-call w-fit mx-auto md:mx-5 mt-44 sm:mt-36 md:mt-24 lg:mt-28 xl:mt-28 ">
           <div className="flex icons">
-            <SocialIcons imgURL="/images/socials/instagram.png" alt="Instagram" />
-            <SocialIcons imgURL="/images/socials/facebook.png" alt="Facebook" />
-            <SocialIcons imgURL="/images/socials/youtube.png" alt="Youtube" />
+            <a
+              href="https://www.instagram.com/tmifellowship"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <SocialIcons
+                imgURL="/images/socials/instagram.png"
+                alt="Instagram"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/tmifellowship"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <SocialIcons
+                imgURL="/images/socials/facebook.png"
+                alt="Facebook"
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCXMRU2-nQZwMNQyjM64mLJA"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <SocialIcons imgURL="/images/socials/youtube.png" alt="Youtube" />
+            </a>
           </div>
           <p className="font-bold call text-center md:text-left">Follow Us!</p>
           <p className="handle text-center md:text-left">@tmifellowship </p>
@@ -62,9 +95,11 @@ export default function Home() {
             <span className="font-bold">effect change</span> in society for the
             Cause of Christ
           </p>
-          <button className="bg-tmi-yellow py-1.5 px-7 font-bold rounded-3xl mr-3 mb-3 w-fit xl:text-xl">
-            About Us
-          </button>
+          <Link href="/about" target="_blank" rel="noreferrer">
+            <button className="bg-tmi-yellow py-1.5 px-7 font-bold rounded-3xl mr-3 mb-3 w-fit xl:text-xl">
+              About Us
+            </button>
+          </Link>
         </div>
         <div className="flex h-full sm:w-1/2 overflow-hidden">
           <div className="h-full w-full bg-[url('/images/home/investing-pic.png')] bg-cover bg-top scale-105 hover:scale-100 hover:duration-500 transition-all" />
@@ -80,9 +115,11 @@ export default function Home() {
             <span className="font-bold">free education</span> to the
             marginalized sector
           </p>
-          <button className="bg-tmi-yellow py-1.5 px-8 font-bold rounded-3xl mr-3 mb-3 w-fit xl:text-xl">
-            Our Ministry
-          </button>
+          <Link href="/ministries" target="_blank" rel="noreferrer">
+            <button className="bg-tmi-yellow py-1.5 px-8 font-bold rounded-3xl mr-3 mb-3 w-fit xl:text-xl">
+              Our Ministry
+            </button>
+          </Link>
         </div>
         <div className="flex h-full sm:w-1/2 overflow-hidden">
           <div className="h-full w-full bg-[url('/images/home/rooted-pic.png')] bg-cover bg-top sm:bg-center scale-105 hover:scale-100 hover:duration-500 transition-all" />
