@@ -1,26 +1,36 @@
+import { useEffect } from "react";
 import Layout from "@/components/Layout";
 import Section from "@/components/Section";
 import SocialIcons from "@/components/SocialIcons";
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 export default function Home() {
+
+  useEffect(() => {
+    AOS.init({ duration: 500 })
+  }, [])
+
   return (
     <Layout>
-      <Section className="h-screen bg-[url('/images/home/latest-sermon.png')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pt-[26rem] sm:pt-[24rem] md:pt-[20rem] lg:pt-[22rem] xl:pt-[22rem]">
-        <h1 className="text-3xl font-thin">LATEST SERMON</h1>
-        <p className="font-bold md:text-6xl sm:text-4xl text-xl mb-8 mt-5">
-          The Premise of the Promise <br /> of a Happy New Year
-        </p>
-        <button className="bg-tmi-yellow py-1.5 px-7 font-bold rounded-3xl mr-3 mb-3 text-xs sm:text-xl">
-          Watch Now
-        </button>
-        <button className="bg-transparent border border-white rounded-3xl py-1.5 px-7 text-xs sm:text-xl">
-          See More Sermons
-        </button>
+      <Section className="h-screen bg-[url('/images/home/latest-sermon.png')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pt-[26rem] sm:pt-[24rem] md:pt-[20rem] lg:pt-[20rem]">
+        <div className="landing-section-text">
+          <h1 className="text-3xl font-thin">LATEST SERMON</h1>
+          <p className="font-bold md:text-6xl sm:text-4xl text-xl mb-8 mt-5">
+            The Premise of the Promise <br /> of a Happy New Year
+          </p>
+          <button className="bg-tmi-yellow py-1.5 px-7 font-bold rounded-3xl mr-3 mb-3 text-xs sm:text-xl">
+            Watch Now
+          </button>
+          <button className="bg-transparent border border-white rounded-3xl py-1.5 px-7 text-xs sm:text-xl">
+            See More Sermons
+          </button>
+        </div>
       </Section>
       <Section className="h-screen bg-[url('/images/home/welcome-to-tmi.png')] no-repeat px-6 sm:px-10 bg-cover bg-top p-5">
         <hr className="border-t-2 border-white" />
         <hr className="border-t border-white mt-1 mx-1" />
-        <div className="flex flex-col items-center mt-14">
+        <div className="flex flex-col items-center mt-14" data-aos="fade-up">
           <p className="text-xl sm:text-3xl font-thin mb-4">Welcome to</p>
           <h2 className="font-bold md:text-7xl sm:text-5xl text-4xl mb-4">
             TMI Fellowship
