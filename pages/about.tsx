@@ -4,7 +4,7 @@ import History from "@/components/about/History";
 import Mission from "@/components/about/Mission";
 import Statement from "@/components/about/Statement";
 
-export default function about() {
+export default function About() {
   return (
     <Layout>
       <History />
