@@ -66,7 +66,7 @@ function Header() {
           {
             "flex bg-gradient-to-b from-tmi-blue to-transparent":
               isGoingUp || isOnTop || isSidebarOpen,
-            hidden: isHeaderHidden,
+            hidden: isHeaderHidden
           }
         )}
       >
