@@ -4,14 +4,14 @@ import { Cormorant_Garamond, Montserrat } from "@next/font/google";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
-  variable: "--font-montserrat",
+  variable: "--font-montserrat"
 });
 
 const garamond = Cormorant_Garamond({
   subsets: ["latin-ext"],
   style: "normal",
   variable: "--font-garamond",
-  weight: "500",
+  weight: "500"
 });
 
 export default function App({ Component, pageProps }: AppProps) {

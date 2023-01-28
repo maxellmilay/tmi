@@ -1,27 +1,27 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 function useMousePosHook(ref: React.RefObject<any>) {
-	const [isInside, setIsInside] = useState(false);
+  const [isInside, setIsInside] = useState(false);
 
-	function handleClickOutside(event: MouseEvent) {
-		if (!ref.current || !event?.target) {
-			return;
-		}
+  function handleClickOutside(event: MouseEvent) {
+    if (!ref.current || !event?.target) {
+      return;
+    }
 
-		if (!ref.current.contains(event.target as Node)) {
-			setIsInside(false);
-		} else {
-			setIsInside(true);
-		}
-	}
+    if (!ref.current.contains(event.target as Node)) {
+      setIsInside(false);
+    } else {
+      setIsInside(true);
+    }
+  }
 
-	useEffect(() => {
-		document.addEventListener('mousedown', handleClickOutside);
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
 
-		return () => document.removeEventListener('mousedown', handleClickOutside);
-	}, [ref, isInside]);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [ref, isInside]);
 
-	return [isInside];
+  return [isInside];
 }
 
 export default useMousePosHook;
