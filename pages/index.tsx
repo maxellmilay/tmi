@@ -18,9 +18,9 @@ export default function Home() {
         <title>TMI Fellowship</title>
       </Head>
       <Layout>
-        <Section className="h-screen bg-[url('/images/home/latest-sermon.png')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pt-[22rem] sm:pt-[20rem] md:pt-[16rem] lg:pt-[20rem]">
+        <Section className="h-screen flex flex-col justify-end bg-[url('/images/home/latest-sermon.png')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pb-10">
           <div className="home-landing-animation">
-            <h1 className="text-2xl sm:text-3xl font-thin">LATEST SERMON</h1>
+            <h1 className="text-2xl sm:text-3xl font-light">LATEST SERMON</h1>
             <p className="font-bold md:text-6xl sm:text-4xl text-lg mb-5 mt-2 sm:mt-5">
               The Premise of the Promise <br /> of a Happy New Year
             </p>
@@ -44,7 +44,7 @@ export default function Home() {
             </a>
           </div>
         </Section>
-        <Section className="h-screen bg-[url('/images/home/welcome-to-tmi.png')] no-repeat px-6 sm:px-10 bg-cover bg-top p-5">
+        <Section className="h-screen flex flex-col bg-[url('/images/home/welcome-to-tmi.png')] no-repeat px-6 sm:px-10 bg-cover bg-top p-5">
           <hr className="border-t-2 border-white" />
           <hr className="border-t border-white mt-1 mx-1" />
           <div className="flex flex-col items-center mt-14" data-aos="fade-up">
@@ -59,7 +59,7 @@ export default function Home() {
               Live Worship Service Every <br /> Sunday at 9:30 AM
             </p>
           </div>
-          <div className="grid call-container mobile-socmed-call socmed-call w-fit mx-auto md:mx-5 mt-32 sm:mt-20 md:mt-16 lg:mt-28 xl:mt-28 ">
+          <div className="grid call-container mobile-socmed-call socmed-call w-fit mx-auto md:mx-5 mt-auto ">
             <div className="flex icons">
               <a
                 href="https://www.instagram.com/tmifellowship"
