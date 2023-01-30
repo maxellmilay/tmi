@@ -9,7 +9,7 @@ export default function ComingSoon() {
     <div className="text-tmi-blue flex flex-col justify-center items-center gap-6 h-empty">
       <div className="flex max-sm:flex-col gap-4 mb-5 justify-center items-center">
         <Image
-          src="/images/coming-soon-logo.jpg"
+          src="/images/coming-soon-logo.png"
           alt="coming soong logo"
           width={windowSize > 640 ? 200 : 100}
           height={windowSize > 640 ? 100 : 50}
