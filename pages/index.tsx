@@ -61,36 +61,21 @@ export default function Home() {
           </div>
           <div className="grid call-container mobile-socmed-call socmed-call w-fit mx-auto md:mx-5 mt-auto ">
             <div className="flex icons">
-              <a
-                href="https://www.instagram.com/tmifellowship"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <SocialIcons
-                  imgURL="/images/socials/instagram.png"
-                  alt="Instagram"
-                />
-              </a>
-              <a
-                href="https://www.facebook.com/tmifellowship"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <SocialIcons
-                  imgURL="/images/socials/facebook.png"
-                  alt="Facebook"
-                />
-              </a>
-              <a
-                href="https://www.youtube.com/channel/UCXMRU2-nQZwMNQyjM64mLJA"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <SocialIcons
-                  imgURL="/images/socials/youtube.png"
-                  alt="Youtube"
-                />
-              </a>
+              <SocialIcons
+                imgURL="/images/socials/instagram.png"
+                alt="Instagram"
+                link="https://www.instagram.com/tmifellowship"
+              />
+              <SocialIcons
+                imgURL="/images/socials/facebook.png"
+                alt="Facebook"
+                link="https://www.facebook.com/tmifellowship"
+              />
+              <SocialIcons
+                imgURL="/images/socials/youtube.png"
+                alt="Youtube"
+                link="https://www.youtube.com/channel/UCXMRU2-nQZwMNQyjM64mLJA"
+              />
             </div>
             <p className="font-bold call text-center md:text-left text-xs">
               Follow Us!
