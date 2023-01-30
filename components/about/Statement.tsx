@@ -13,7 +13,7 @@ export default function Statement() {
     <>
       <Section
         id="statement"
-        className="flex items-end justify-end bg-[url('/images/about/statement-header.png')] no-repeat bg-cover bg-center"
+        className="flex items-end justify-end bg-[url('/images/about/statement-header.jpg')] no-repeat bg-cover bg-center"
       >
         <div
           className="flex items-center mb-5 mt-10 md:mb-10 md:mt-20"
