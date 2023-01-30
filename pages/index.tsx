@@ -18,7 +18,7 @@ export default function Home() {
         <title>TMI Fellowship</title>
       </Head>
       <Layout>
-        <Section className="h-screen flex flex-col justify-end bg-[url('/images/home/latest-sermon.png')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pb-10">
+        <Section className="h-screen flex flex-col justify-end bg-[url('/images/home/latest-sermon.png')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pb-16">
           <div className="home-landing-animation">
             <h1 className="text-2xl sm:text-3xl font-light">LATEST SERMON</h1>
             <p className="font-bold md:text-6xl sm:text-4xl text-lg mb-5 mt-2 sm:mt-5">
