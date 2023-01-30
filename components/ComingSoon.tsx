@@ -14,7 +14,7 @@ export default function ComingSoon() {
           width={windowSize > 640 ? 200 : 100}
           height={windowSize > 640 ? 100 : 50}
         />
-        <div className="flex self-end max-sm:mt-8 max-sm:text-center">
+        <div className="flex self-end max-sm:mt-3 max-sm:text-center px-10 sm:px-0">
           <div>
             <h2 className="text-2xl sm:text-5xl font-bold">Coming Soon!</h2>
             <p className="text-xs sm:text-xl font-light max-w-xs">
