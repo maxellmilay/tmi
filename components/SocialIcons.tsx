@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import useScreen from "@/hooks/useScreen";
 
 interface PropsInterface {
   imgURL: string;
@@ -8,8 +9,15 @@ interface PropsInterface {
 
 export default function SocialIcons(props: PropsInterface) {
   const { imgURL, alt } = props;
+  const [windowSize] = useScreen();
 
   return (
-    <Image src={imgURL} alt={alt} width={50} height={50} className="mr-2" />
+    <Image
+      src={imgURL}
+      alt={alt}
+      width={windowSize > 768 ? 50 : 30}
+      height={windowSize > 768 ? 50 : 30}
+      className="mr-2"
+    />
   );
 }
