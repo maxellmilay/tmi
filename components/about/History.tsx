@@ -9,23 +9,23 @@ export default function History() {
     <>
       <Section
         id="history"
-        className="flex items-end h-[25vh] sm:h-[35vh] md:h-[70vh] bg-[url('/images/about/mobile-history-header.png')] md:bg-[url('/images/about/history-header.png')] no-repeat bg-cover bg-center"
+        className="flex items-end bg-[url('/images/about/mobile-history-header.png')] md:bg-[url('/images/about/history-header.png')] no-repeat bg-cover bg-center"
       >
-        <div className="history-header-animation flex items-center my-16">
+        <div className="history-header-animation flex items-center mt-32 mb-12 sm:mb-16">
           <div className="h-1 sm:h-2 bg-white w-[55vw]" />
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold ml-5 sm:ml-9 md:ml-14">
             History
           </h1>
         </div>
       </Section>
-      <Section className="flex flex-col md:flex-row relative justify-start md:justify-start items-center md:h-[80vh] bg-[url('/images/about/history-bg-1.png')] no-repeat bg-cover bg-center px-10">
+      <Section className="flex flex-col md:flex-row justify-start md:justify-evenly items-center bg-[url('/images/about/history-bg-1.png')] no-repeat bg-cover bg-center">
         <Image
           src={HistoryPic1}
           alt="1st history pic"
-          className="w-[80vw] h-[65vw] md:w-[50vw] md:h-[80vh] object-cover absolute -top-8 md:bottom-10"
+          className="w-[80vw] h-[65vw] md:w-[50vw] md:h-[80vh] object-cover relative -top-8 md:bottom-10"
         />
-        <div className="flex mt-[65vw] md:mt-0 justify-center md:justify-end md:items-center w-full h-full">
-          <p className="text-black md:h-fit w-[80vw] md:max-w-[35vw] text-justify mb-5">
+        <div className="flex md:mt-0 justify-center items-center h-full">
+          <p className="text-black text-xs sm:text-base md:h-fit w-[80vw] md:max-w-[35vw] text-justify mb-10 md:my-5">
             <span className="font-bold">MOVED WITH THE DESIRE</span> to make a
             difference in the lives of underprivileged children in the
             marginalized sector of society who are deprived of preschool
@@ -39,28 +39,28 @@ export default function History() {
           </p>
         </div>
       </Section>
-      <Section className="flex md:items-center justify-center md:justify-start h-[80vh] px-12 sm:px-20 bg-[url('/images/about/mobile-history-bg-2.png')] md:bg-[url('/images/about/history-bg-2.png')] no-repeat bg-cover bg-center">
-        <p className="md:max-w-[40vw] sm:text-2xl text-justify leading-8 md:leading-10 mt-24 md:mt-0">
+      <Section className="flex md:items-center justify-center md:justify-start px-12 sm:px-20 bg-[url('/images/about/mobile-history-bg-2.png')] md:bg-[url('/images/about/history-bg-2.png')] no-repeat bg-cover bg-center">
+        <p className="md:max-w-[40vw] text-sm sm:text-2xl text-justify leading-8 md:leading-10 my-20">
           The following month, on March 10, 2018, at Parklane Hotel, TMI Mobile
           School Program (TMSP) was officially launched. The event was witnessed
           by friends and supporters representing various sectors of society.
         </p>
       </Section>
-      <Section className="flex relative justify-center bg-[url('/images/about/history-bg-3.png')] no-repeat bg-cover bg-center">
+      <Section className="flex flex-col items-center justify-center bg-[url('/images/about/history-bg-3.png')] no-repeat bg-cover bg-center">
         <Image
           src={HistoryPic2}
           alt="2nd history pic"
-          className="h-[60vw] md:h-[40vw] w-[80vw] md:[65vw] object-cover absolute -top-24 sm:-top-32 md:-top-10"
+          className="h-[60vw] md:h-[40vw] w-[80vw] md:[65vw] object-cover relative -top-8"
         />
-        <div className="flex flex-col items-center mb-16 text-black max-w-[70vw] mt-[50vw] sm:mt-[50vw] md:mt-[40vw] text-lg sm:text-2xl text-justify">
-          <p className="mb-5">
+        <div className="flex flex-col items-center mb-16 text-black max-w-[70vw] text-lg sm:text-2xl text-justify">
+          <p className="mb-5 text-xs sm:text-base">
             <span className="font-bold">ON NOVEMBER 18, 2018</span>, 52 children
             from the resettlement area at Sito Kapasar, Barangay Budlaan, Cebu
             City, graduated from the program. Two more batches from the same
             area followed and successfully completed the program until the Covid
             19 scare halted the project.
           </p>
-          <p>
+          <p className="text-xs sm:text-base">
             TMI Fellowship looks at 2023 with great anticipation as TMSP hopes
             to resume.
           </p>

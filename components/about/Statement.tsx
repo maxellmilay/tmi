@@ -13,13 +13,16 @@ export default function Statement() {
     <>
       <Section
         id="statement"
-        className="flex items-end justify-end h-[10vh] sm:h-[15vh] md:h-[30vh] bg-[url('/images/about/statement-header.png')] no-repeat bg-cover bg-center"
+        className="flex items-end justify-end bg-[url('/images/about/statement-header.png')] no-repeat bg-cover bg-center"
       >
-        <div className="flex items-center mb-5" data-aos="fade-left">
+        <div
+          className="flex items-center mb-5 mt-10 md:mb-10 md:mt-20"
+          data-aos="fade-left"
+        >
           <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mr-3 ml-3 sm:ml-0 sm:mr-7 md:mr-14">
             Statement of Faith
           </h2>
-          <div className="h-1 sm:h-2 bg-white w-[40vw] md:w-[45vw]" />
+          <div className="h-1 sm:h-2 bg-white w-[30vw] sm:w-[40vw] md:w-[45vw]" />
         </div>
       </Section>
       <Section className="flex flex-col items-center py-14 md:py-24 text-tmi-blue">
