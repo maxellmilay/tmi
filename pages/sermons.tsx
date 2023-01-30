@@ -1,12 +1,18 @@
 import ComingSoon from "@/components/ComingSoon";
 import Layout from "@/components/Layout";
 import React from "react";
+import Head from "next/head";
 
 function Sermons() {
   return (
-    <Layout>
-      <ComingSoon />
-    </Layout>
+    <>
+      <Head>
+        <title>Sermons</title>
+      </Head>
+      <Layout>
+        <ComingSoon />
+      </Layout>
+    </>
   );
 }
 
