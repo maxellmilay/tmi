@@ -20,8 +20,10 @@ export default function Home() {
       <Layout>
         <Section className="h-screen flex flex-col justify-end bg-[url('/images/home/latest-sermon.png')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pb-16">
           <div className="home-landing-animation">
-            <h1 className="text-2xl sm:text-3xl font-light">LATEST SERMON</h1>
-            <p className="font-bold md:text-6xl sm:text-4xl text-lg mb-5 mt-2 sm:mt-5">
+            <h1 className="text-white text-2xl sm:text-3xl font-light">
+              LATEST SERMON
+            </h1>
+            <p className="text-white font-bold md:text-6xl sm:text-4xl text-lg mb-5 mt-2 sm:mt-5">
               The Premise of the Promise <br /> of a Happy New Year
             </p>
             <a
@@ -48,14 +50,16 @@ export default function Home() {
           <hr className="border-t-2 border-white" />
           <hr className="border-t border-white mt-1 mx-1" />
           <div className="flex flex-col items-center mt-14" data-aos="fade-up">
-            <p className="text-xl sm:text-3xl font-thin mb-4">Welcome to</p>
-            <h2 className="font-bold md:text-7xl sm:text-5xl text-3xl mb-4">
+            <p className="text-white text-xl sm:text-3xl font-thin mb-4">
+              Welcome to
+            </p>
+            <h2 className="text-white font-bold md:text-7xl sm:text-5xl text-3xl mb-4">
               TMI Fellowship
             </h2>
             <p className="text-tmi-yellow text-xl sm:text-2xl mb-20 xl:mb-28">
               we&apos;re glad you&apos;re here
             </p>
-            <p className="text-center text-xl sm:text-4xl font-semibold">
+            <p className="text-white text-center text-xl sm:text-4xl font-semibold">
               Live Worship Service Every <br /> Sunday at 9:30 AM
             </p>
           </div>

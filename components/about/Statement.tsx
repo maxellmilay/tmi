@@ -19,7 +19,7 @@ export default function Statement() {
           className="flex items-center mb-5 mt-10 md:mb-10 md:mt-20"
           data-aos="fade-left"
         >
-          <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mr-3 ml-3 sm:ml-0 sm:mr-7 md:mr-14">
+          <h2 className="text-white text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mr-3 ml-3 sm:ml-0 sm:mr-7 md:mr-14">
             Statement of Faith
           </h2>
           <div className="h-1 sm:h-2 bg-white w-[30vw] sm:w-[40vw] md:w-[45vw]" />

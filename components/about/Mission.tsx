@@ -19,7 +19,7 @@ export default function Mission() {
           className="flex items-center mb-5 mt-10 md:mb-10 md:mt-20"
           data-aos="fade-left"
         >
-          <h2 className="font-bold text-3xl sm:text-5xl md:text-6xl lg:text-7xl mr-5 sm:mr-9 md:mr-14">
+          <h2 className="text-white font-bold text-3xl sm:text-5xl md:text-6xl lg:text-7xl mr-5 sm:mr-9 md:mr-14">
             Mission
           </h2>
           <div className="h-1 sm:h-2 bg-white w-[50vw] md:w-[60vw]" />
