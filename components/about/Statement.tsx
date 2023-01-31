@@ -74,7 +74,7 @@ export default function Statement() {
         <StatementDetail
           className="my-11"
           number="10"
-          info="We elieve that the Lord Jesus Christ will come again for the believers to forever be with Him."
+          info="We believe that the Lord Jesus Christ will come again for the believers to forever be with Him."
         />
       </Section>
     </>
