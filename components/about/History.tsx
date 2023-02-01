@@ -39,18 +39,8 @@ export default function History() {
           </p>
         </div>
       </Section>
-<<<<<<< HEAD
-<<<<<<< HEAD
       <Section className="flex md:items-center justify-center md:justify-start px-12 sm:px-20 bg-[url('/images/about/mobile-history-bg-2.jpg')] md:bg-[url('/images/about/history-bg-2.jpg')] no-repeat bg-cover bg-center">
-        <p className="md:max-w-[40vw] text-sm sm:text-2xl text-justify leading-8 md:leading-10 my-20">
-=======
-      <Section className="flex md:items-center justify-center md:justify-start px-12 sm:px-20 bg-[url('/images/about/mobile-history-bg-2.png')] md:bg-[url('/images/about/history-bg-2.png')] no-repeat bg-cover bg-center">
         <p className="text-white md:max-w-[40vw] text-sm sm:text-2xl text-justify leading-8 md:leading-10 my-20">
->>>>>>> 8b2e4be ([Adjustment][Vince] chagned text color to white)
-=======
-      <Section className="flex md:items-center justify-center md:justify-start px-12 sm:px-20 bg-[url('/images/about/mobile-history-bg-2.png')] md:bg-[url('/images/about/history-bg-2.png')] no-repeat bg-cover bg-center">
-        <p className="text-white md:max-w-[40vw] text-sm sm:text-2xl text-justify leading-8 md:leading-10 my-20">
->>>>>>> 8b2e4be7f5e4252fe87b0f2ce50187c7a1604541
           The following month, on March 10, 2018, at Parklane Hotel, TMI Mobile
           School Program (TMSP) was officially launched. The event was witnessed
           by friends and supporters representing various sectors of society.
