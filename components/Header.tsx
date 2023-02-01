@@ -46,7 +46,9 @@ function Header() {
   }, [windowSize]);
 
   const isHeaderHidden = !isGoingUp && !isOnTop && !isSidebarOpen;
-  const renderSidebar = isSidebarOpen && <Sidebar />;
+  const renderSidebar = isSidebarOpen && (
+    <Sidebar onSidebarClick={handleSidebarClick} />
+  );
   const renderBurger = !isSidebarOpen && (
     <button className="block md:hidden" onClick={handleSidebarClick}>
       <RxHamburgerMenu size={25} />

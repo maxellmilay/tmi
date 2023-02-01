@@ -3,7 +3,13 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { BsInstagram, BsFacebook, BsYoutube } from "react-icons/bs";
 
-function Sidebar() {
+interface PropsInterface {
+  onSidebarClick: () => void;
+}
+
+function Sidebar(props: PropsInterface) {
+  const { onSidebarClick } = props;
+
   const [isAboutOpen, setIsAboutOpen] = useState(false);
 
   function handleAboutClick() {
@@ -20,13 +26,25 @@ function Sidebar() {
             hidden: !isAboutOpen
           })}
         >
-          <Link className="p-2 hover:bg-tmi-hover-gray" href="/about#history">
+          <Link
+            className="p-2 hover:bg-tmi-hover-gray"
+            href="/about#history"
+            onClick={onSidebarClick}
+          >
             History
           </Link>
-          <Link className="p-2 hover:bg-tmi-hover-gray" href="/about#mission">
+          <Link
+            className="p-2 hover:bg-tmi-hover-gray"
+            href="/about#mission"
+            onClick={onSidebarClick}
+          >
             Mission
           </Link>
-          <Link className="p-2 hover:bg-tmi-hover-gray" href="/about#statement">
+          <Link
+            className="p-2 hover:bg-tmi-hover-gray"
+            href="/about#statement"
+            onClick={onSidebarClick}
+          >
             Statement of Faith
           </Link>
         </div>
