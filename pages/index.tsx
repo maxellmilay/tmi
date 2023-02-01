@@ -18,7 +18,7 @@ export default function Home() {
         <title>TMI Fellowship</title>
       </Head>
       <Layout>
-        <Section className="h-screen flex flex-col justify-end bg-[url('/images/home/latest-sermon.png')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pb-16">
+        <Section className="h-screen flex flex-col justify-end bg-[url('/images/home/latest-sermon.jpg')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pb-16">
           <div className="home-landing-animation">
             <h1 className="text-2xl sm:text-3xl font-light">LATEST SERMON</h1>
             <p className="font-bold md:text-6xl sm:text-4xl text-lg mb-5 mt-2 sm:mt-5">
@@ -44,7 +44,7 @@ export default function Home() {
             </a>
           </div>
         </Section>
-        <Section className="h-screen flex flex-col bg-[url('/images/home/welcome-to-tmi.png')] no-repeat px-6 sm:px-10 bg-cover bg-top p-5">
+        <Section className="h-screen flex flex-col bg-[url('/images/home/welcome-to-tmi.jpg')] no-repeat px-6 sm:px-10 bg-cover bg-top p-5">
           <hr className="border-t-2 border-white" />
           <hr className="border-t border-white mt-1 mx-1" />
           <div className="flex flex-col items-center mt-14" data-aos="fade-up">
@@ -86,7 +86,7 @@ export default function Home() {
           </div>
         </Section>
         <Section className="h-screen flex flex-col-reverse sm:flex-row">
-          <div className="flex flex-col text-center sm:text-right bg-[url('/images/home/cause-of-christ.png')] h-full sm:w-1/2 bg-cover items-center sm:items-end px-7 lg:px-14 justify-center">
+          <div className="flex flex-col text-center sm:text-right bg-[url('/images/home/cause-of-christ.jpg')] h-full sm:w-1/2 bg-cover items-center sm:items-end px-7 lg:px-14 justify-center">
             <p className="text-tmi-blue text-[1.8rem] leading-[2.2rem] sm:text-4xl lg:text-6xl mb-4 sm:mb-8 max-w-sm sm:max-w-lg">
               Investing for the{" "}
               <span className="font-bold">Cause of Christ</span>
@@ -103,11 +103,11 @@ export default function Home() {
             </Link>
           </div>
           <div className="flex h-full sm:w-1/2 overflow-hidden">
-            <div className="h-full w-full bg-[url('/images/home/investing-pic.png')] bg-cover bg-top scale-105 hover:scale-100 hover:duration-500 transition-all" />
+            <div className="h-full w-full bg-[url('/images/home/investing-pic.jpg')] bg-cover bg-top scale-105 hover:scale-100 hover:duration-500 transition-all" />
           </div>
         </Section>
         <Section className="h-screen flex flex-col-reverse sm:flex-row-reverse">
-          <div className="flex flex-col text-center sm:text-left bg-[url('/images/home/rooted-in-education.png')] h-full sm:w-1/2 bg-cover items-center sm:items-start px-7 lg:px-14 justify-center">
+          <div className="flex flex-col text-center sm:text-left bg-[url('/images/home/rooted-in-education.jpg')] h-full sm:w-1/2 bg-cover items-center sm:items-start px-7 lg:px-14 justify-center">
             <p className="text-tmi-blue text-[1.8rem] leading-[2.2rem] sm:text-4xl lg:text-6xl mb-4 sm:mb-8 max-w-sm sm:max-w-lg">
               Rooted in <span className="font-bold">Education</span>
             </p>
@@ -123,7 +123,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="flex h-full sm:w-1/2 overflow-hidden">
-            <div className="h-full w-full bg-[url('/images/home/rooted-pic.png')] bg-cover bg-top sm:bg-center scale-105 hover:scale-100 hover:duration-500 transition-all" />
+            <div className="h-full w-full bg-[url('/images/home/rooted-pic.jpg')] bg-cover bg-top sm:bg-center scale-105 hover:scale-100 hover:duration-500 transition-all" />
           </div>
         </Section>
       </Layout>
