@@ -1,15 +1,15 @@
 import React from "react";
 import Section from "@/components/Section";
 import Image from "next/image";
-import HistoryPic1 from "@/public/images/about/history-pic-1.jpg";
-import HistoryPic2 from "@/public/images/about/history-pic-2.jpg";
+import HistoryPic1 from "@/public/images/about/history-pic-1.webp";
+import HistoryPic2 from "@/public/images/about/history-pic-2.webp";
 
 export default function History() {
   return (
     <>
       <Section
         id="history"
-        className="flex items-end bg-[url('/images/about/mobile-history-header.jpg')] md:bg-[url('/images/about/history-header.jpg')] no-repeat bg-cover bg-center"
+        className="flex items-end bg-[url('/images/about/mobile-history-header.webp')] md:bg-[url('/images/about/history-header.webp')] no-repeat bg-cover bg-center"
       >
         <div className="history-header-animation flex items-center mt-32 mb-12 sm:mb-16">
           <div className="h-1 sm:h-2 bg-white w-[55vw]" />
@@ -18,7 +18,7 @@ export default function History() {
           </h1>
         </div>
       </Section>
-      <Section className="flex flex-col md:flex-row justify-start md:justify-evenly items-center bg-[url('/images/about/history-bg-1.jpg')] no-repeat bg-cover bg-center">
+      <Section className="flex flex-col md:flex-row justify-start md:justify-evenly items-center bg-[url('/images/about/history-bg-1.webp')] no-repeat bg-cover bg-center">
         <Image
           src={HistoryPic1}
           alt="1st history pic"
@@ -39,14 +39,14 @@ export default function History() {
           </p>
         </div>
       </Section>
-      <Section className="flex md:items-center justify-center md:justify-start px-12 sm:px-20 bg-[url('/images/about/mobile-history-bg-2.jpg')] md:bg-[url('/images/about/history-bg-2.jpg')] no-repeat bg-cover bg-center">
+      <Section className="flex md:items-center justify-center md:justify-start px-12 sm:px-20 bg-[url('/images/about/mobile-history-bg-2.webp')] md:bg-[url('/images/about/history-bg-2.webp')] no-repeat bg-cover bg-center">
         <p className="text-white md:max-w-[40vw] text-sm sm:text-2xl text-justify leading-8 md:leading-10 my-20">
           The following month, on March 10, 2018, at Parklane Hotel, TMI Mobile
           School Program (TMSP) was officially launched. The event was witnessed
           by friends and supporters representing various sectors of society.
         </p>
       </Section>
-      <Section className="flex flex-col items-center justify-center bg-[url('/images/about/history-bg-3.jpg')] no-repeat bg-cover bg-center">
+      <Section className="flex flex-col items-center justify-center bg-[url('/images/about/history-bg-3.webp')] no-repeat bg-cover bg-center">
         <Image
           src={HistoryPic2}
           alt="2nd history pic"
