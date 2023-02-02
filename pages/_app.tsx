@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { Cormorant_Garamond, Montserrat } from "@next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -16,8 +17,11 @@ const garamond = Cormorant_Garamond({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={`${montserrat.variable} ${garamond.variable} font-sans`}>
-      <Component {...pageProps} />
-    </main>
+    <>
+      <main className={`${montserrat.variable} ${garamond.variable} font-sans`}>
+        <Component {...pageProps} />
+      </main>
+      <Analytics />
+    </>
   );
 }
