@@ -31,7 +31,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-tmi-yellow py-1 sm:py-1.5 px-4 sm:px-7 font-bold rounded-3xl mr-3 mb-3 text-[0.6rem] sm:text-xl">
+              <button className="text-white bg-tmi-yellow py-1 sm:py-1.5 px-4 sm:px-7 font-bold rounded-3xl mr-3 mb-3 text-[0.6rem] sm:text-xl">
                 Watch Now
               </button>
             </a>
@@ -40,7 +40,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-transparent border border-white rounded-3xl py-1 sm:py-1.5 px-4 sm:px-7 text-[0.6rem] sm:text-xl">
+              <button className="text-white bg-transparent border border-white rounded-3xl py-1 sm:py-1.5 px-4 sm:px-7 text-[0.6rem] sm:text-xl">
                 See More Sermons
               </button>
             </a>
@@ -101,7 +101,7 @@ export default function Home() {
               the Cause of Christ
             </p>
             <Link href="/about" target="_blank" rel="noreferrer">
-              <button className="bg-tmi-yellow py-1.5 px-7 font-bold rounded-3xl mr-3 mb-3 w-fit xl:text-xl">
+              <button className="text-white bg-tmi-yellow py-1.5 px-7 font-bold rounded-3xl mr-3 mb-3 w-fit xl:text-xl">
                 About Us
               </button>
             </Link>
@@ -121,7 +121,7 @@ export default function Home() {
               marginalized sector
             </p>
             <Link href="/ministries" target="_blank" rel="noreferrer">
-              <button className="bg-tmi-yellow py-1.5 px-8 font-bold rounded-3xl mr-3 mb-3 w-fit xl:text-xl">
+              <button className="text-white bg-tmi-yellow py-1.5 px-8 font-bold rounded-3xl mr-3 mb-3 w-fit xl:text-xl">
                 Our Ministry
               </button>
             </Link>
