@@ -31,7 +31,8 @@ function Footer() {
         </div>
         <hr className="visible md:hidden w-full my-8" />
         <div className="flex justify-center gap-4 md:float-right mt-4 text-xs sm:text-sm">
-          <p>© 2023 TMI Fellowship</p>|<p>Privacy Policy</p>
+          <p>© 2023 TMI Fellowship</p>|
+          <Link href="/privacy-policy">Privacy Policy</Link>
         </div>
       </div>
     </footer>

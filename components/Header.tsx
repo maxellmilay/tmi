@@ -72,10 +72,13 @@ function Header() {
           }
         )}
       >
-        <div className="flex gap-2 items-center text-lg font-bold tracking-wide leading-3">
+        <Link
+          className="flex gap-2 items-center text-xl font-bold tracking-wide"
+          href="/"
+        >
           <Image alt="tmi" src={TMILogo} height={26} width={26} />
-          <Link href="/">TMI Fellowship</Link>
-        </div>
+          <p>TMI Fellowship</p>
+        </Link>
         <div className="hidden md:flex gap-10 items-center">
           <div className="relative" ref={ref}>
             <button onClick={handleAboutClick}>About Us</button>
