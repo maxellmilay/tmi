@@ -47,8 +47,6 @@ export default function Home() {
           </div>
         </Section>
         <Section className="h-screen flex flex-col bg-[url('/images/home/welcome-to-tmi.webp')] no-repeat px-6 sm:px-10 bg-cover bg-top p-5">
-          <hr className="border-t-2 border-white" />
-          <hr className="border-t border-white mt-1 mx-1" />
           <div className="flex flex-col items-center mt-14" data-aos="fade-up">
             <p className="text-white text-xl sm:text-3xl font-thin mb-4">
               Welcome to
