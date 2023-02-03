@@ -7,7 +7,7 @@ export default function PageNotFound() {
   return (
     <>
       <Head>
-        <title>404</title>
+        <title>404 | TMI Fellowship</title>
       </Head>
       <Layout>
         <div className="text-tmi-blue text-center flex flex-col items-center justify-center gap-6 h-empty">

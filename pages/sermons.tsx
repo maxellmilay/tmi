@@ -7,7 +7,7 @@ function Sermons() {
   return (
     <>
       <Head>
-        <title>Sermons</title>
+        <title>Sermons | TMI Fellowship</title>
       </Head>
       <Layout>
         <ComingSoon />
