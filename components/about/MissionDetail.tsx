@@ -13,10 +13,10 @@ export default function MissionDetail(props: PropsInterface) {
     <div
       className={`flex flex-col md:flex-row justify-center items-center md:mr-[5vw] ${className}`}
     >
-      <h3 className="flex justify-center text-center md:justify-end md:mr-10 font-bold w-[70vw] md:w-[35vw] text-lg sm:text-4xl mb-3">
+      <h3 className="flex justify-center text-center md:justify-end md:mr-10 font-bold w-[70vw] md:w-[35vw] text-xl sm:text-4xl mb-3">
         {title}
       </h3>
-      <p className="text-center md:text-left w-[70vw] md:w-[30vw] text-xs sm:text-lg">
+      <p className="text-center md:text-left w-[70vw] md:w-[30vw] text-sm sm:text-lg">
         {info}
       </p>
     </div>
