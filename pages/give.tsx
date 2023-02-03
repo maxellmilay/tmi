@@ -7,7 +7,7 @@ function Give() {
   return (
     <>
       <Head>
-        <title>Give</title>
+        <title>Give | TMI Fellowship</title>
       </Head>
       <Layout>
         <ComingSoon />

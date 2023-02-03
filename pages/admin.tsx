@@ -7,7 +7,7 @@ function Admin() {
   return (
     <>
       <Head>
-        <title>Admin</title>
+        <title>Admin | TMI Fellowship</title>
       </Head>
       <Layout>
         <ComingSoon />

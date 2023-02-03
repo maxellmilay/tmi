@@ -7,7 +7,7 @@ function Events() {
   return (
     <>
       <Head>
-        <title>Events</title>
+        <title>Events | TMI Fellowship</title>
       </Head>
       <Layout>
         <ComingSoon />
