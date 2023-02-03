@@ -11,7 +11,7 @@ function Dropdown(props: PropsInterface) {
 
   return (
     <div
-      className={classNames("absolute top-10 p-2 bg-white", {
+      className={classNames("absolute top-10 p-2 bg-[#2C317A]", {
         block: isOpen,
         hidden: !isOpen
       })}

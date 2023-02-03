@@ -83,21 +83,15 @@ function Header() {
           <div className="relative" ref={ref}>
             <button onClick={handleAboutClick}>About Us</button>
             <Dropdown isOpen={isAboutOpen}>
-              <div className="flex flex-col w-52 tracking-widest text-tmi-blue">
-                <Link
-                  className="p-2 hover:bg-tmi-hover-gray"
-                  href="/about#history"
-                >
+              <div className="flex flex-col w-52 tracking-widest text-tmi-white">
+                <Link className="p-2 hover:bg-[#242865]" href="/about#history">
                   History
                 </Link>
-                <Link
-                  className="p-2 hover:bg-tmi-hover-gray"
-                  href="/about#mission"
-                >
+                <Link className="p-2 hover:bg-[#242865]" href="/about#mission">
                   Mission
                 </Link>
                 <Link
-                  className="p-2 hover:bg-tmi-hover-gray"
+                  className="p-2 hover:bg-[#242865]"
                   href="/about#statement"
                 >
                   Statement of Faith
