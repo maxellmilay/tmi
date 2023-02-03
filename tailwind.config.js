@@ -25,7 +25,9 @@ module.exports = {
         "tmi-white": "#FFFFFF",
         "tmi-gradient-blue": "#151738",
         "tmi-hover-gray": "#C5C5C5",
-        "tmi-link-blue": "#434AA6"
+        "tmi-link-blue": "#434AA6",
+        "tmi-navbar": "#2C317A",
+        "tmi-hover-navbar": "#242865"
       }
     }
   },

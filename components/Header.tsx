@@ -84,14 +84,20 @@ function Header() {
             <button onClick={handleAboutClick}>About Us</button>
             <Dropdown isOpen={isAboutOpen}>
               <div className="flex flex-col w-52 tracking-widest text-tmi-white">
-                <Link className="p-2 hover:bg-[#242865]" href="/about#history">
+                <Link
+                  className="p-2 hover:bg-tmi-hover-navbar"
+                  href="/about#history"
+                >
                   History
                 </Link>
-                <Link className="p-2 hover:bg-[#242865]" href="/about#mission">
+                <Link
+                  className="p-2 hover:bg-tmi-hover-navbar"
+                  href="/about#mission"
+                >
                   Mission
                 </Link>
                 <Link
-                  className="p-2 hover:bg-[#242865]"
+                  className="p-2 hover:bg-tmi-hover-navbar"
                   href="/about#statement"
                 >
                   Statement of Faith
