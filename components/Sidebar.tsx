@@ -63,7 +63,12 @@ function Sidebar(props: PropsInterface) {
       </div>
       <div>
         <p className="text-sm font-thin mt-10">© 2023 TMI Fellowship</p>
-        <p className="text-sm text-tmi-link-blue mb-10">Privacy Policy</p>
+        <Link
+          className="text-sm text-tmi-link-blue mb-10"
+          href="/privacy-policy"
+        >
+          Privacy Policy
+        </Link>
       </div>
     </div>
   );
