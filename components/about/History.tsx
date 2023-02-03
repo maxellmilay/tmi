@@ -13,7 +13,7 @@ export default function History() {
       >
         <div className="history-header-animation flex items-center mt-32 mb-12 sm:mb-16">
           <div className="h-1 sm:h-2 bg-white w-[55vw]" />
-          <h1 className="text-white text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold ml-5 sm:ml-9 md:ml-14">
+          <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold ml-5 sm:ml-9 md:ml-14">
             History
           </h1>
         </div>
@@ -52,7 +52,7 @@ export default function History() {
           alt="2nd history pic"
           className="h-[60vw] md:h-[40vw] w-[80vw] md:[65vw] object-cover relative -top-8"
         />
-        <div className="flex flex-col items-center mb-16 text-black max-w-[70vw] text-xl sm:text-2xl text-justify">
+        <div className="flex flex-col items-center mb-16 text-black max-w-[70vw] text-lg sm:text-2xl text-justify">
           <p className="mb-5">
             <span className="font-bold">ON NOVEMBER 18, 2018</span>, 52 children
             from the resettlement area at Sito Kapasar, Barangay Budlaan, Cebu
