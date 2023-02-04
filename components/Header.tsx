@@ -34,16 +34,6 @@ function Header() {
     setIsAboutOpen(!isAboutOpen);
   }
 
-  function handleHoverEnter() {
-    setIsAboutOpen(true);
-  }
-
-  function handleHoverLeave() {
-    if (!isInside) {
-      setIsAboutOpen(false);
-    }
-  }
-
   function handleSidebarClick() {
     setIsSidebarOpen(!isSidebarOpen);
   }
@@ -95,13 +85,7 @@ function Header() {
         </Link>
         <div className="hidden md:flex gap-10 items-center">
           <div className="relative" ref={ref}>
-            <button
-              onClick={handleAboutClick}
-              onMouseEnter={handleHoverEnter}
-              onMouseLeave={handleHoverLeave}
-            >
-              About Us
-            </button>
+            <button onClick={handleAboutClick}>About Us</button>
             <Dropdown isOpen={isAboutOpen}>
               <div className="flex flex-col w-52 tracking-widest text-tmi-white">
                 <Link
