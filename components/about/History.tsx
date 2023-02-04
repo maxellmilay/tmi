@@ -25,7 +25,7 @@ export default function History() {
           className="w-[80vw] h-[65vw] md:w-[50vw] md:h-[80vh] object-cover relative -top-8 md:bottom-10"
         />
         <div className="flex md:mt-0 justify-center items-center h-full">
-          <p className="text-black text-xs sm:text-base md:h-fit w-[80vw] md:max-w-[35vw] text-justify mb-10 md:my-5">
+          <p className="text-black text-sm sm:text-xl md:h-fit w-[80vw] md:max-w-[35vw] text-justify mb-10 md:my-5">
             <span className="font-bold">MOVED WITH THE DESIRE</span> to make a
             difference in the lives of underprivileged children in the
             marginalized sector of society who are deprived of preschool
@@ -40,7 +40,7 @@ export default function History() {
         </div>
       </Section>
       <Section className="flex md:items-center justify-center md:justify-start px-12 sm:px-20 bg-[url('/images/about/mobile-history-bg-2.webp')] md:bg-[url('/images/about/history-bg-2.webp')] no-repeat bg-cover bg-center">
-        <p className="text-white md:max-w-[40vw] text-sm sm:text-2xl text-justify leading-8 md:leading-10 my-20">
+        <p className="text-white md:max-w-[40vw] text-sm sm:text-xl text-justify leading-6 md:leading-8 my-20">
           The following month, on March 10, 2018, at Parklane Hotel, TMI Mobile
           School Program (TMSP) was officially launched. The event was witnessed
           by friends and supporters representing various sectors of society.
@@ -52,15 +52,15 @@ export default function History() {
           alt="2nd history pic"
           className="h-[60vw] md:h-[40vw] w-[80vw] md:[65vw] object-cover relative -top-8"
         />
-        <div className="flex flex-col items-center mb-16 text-black max-w-[70vw] text-lg sm:text-2xl text-justify">
-          <p className="mb-5 text-xs sm:text-base">
+        <div className="flex flex-col items-center mb-16 text-black max-w-[70vw] text-md sm:text-xl text-justify">
+          <p className="mb-5">
             <span className="font-bold">ON NOVEMBER 18, 2018</span>, 52 children
             from the resettlement area at Sito Kapasar, Barangay Budlaan, Cebu
             City, graduated from the program. Two more batches from the same
             area followed and successfully completed the program until the Covid
             19 scare halted the project.
           </p>
-          <p className="text-xs sm:text-base">
+          <p>
             TMI Fellowship looks at 2023 with great anticipation as TMSP hopes
             to resume.
           </p>
