@@ -18,13 +18,17 @@ function Header() {
   const { isOnTop, isGoingUp } = useScroll();
 
   const ref = useRef<HTMLDivElement>(null);
-  const [isInside] = useMousePosHook(ref);
+  const [isInside, isHoverInside] = useMousePosHook(ref);
 
   useEffect(() => {
     if (!isInside) {
       setIsAboutOpen(false);
     }
   }, [isInside]);
+
+  useEffect(() => {
+    setIsAboutOpen(isHoverInside);
+  }, [isHoverInside]);
 
   function handleAboutClick() {
     setIsAboutOpen(!isAboutOpen);
