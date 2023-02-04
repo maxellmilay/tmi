@@ -18,7 +18,7 @@ function Header() {
   const { isOnTop, isGoingUp } = useScroll();
 
   const ref = useRef<HTMLDivElement>(null);
-  const [isInside] = useMousePosHook(ref);
+  const [isInside, isHoverInside] = useMousePosHook(ref);
 
   useEffect(() => {
     if (!isInside) {
@@ -26,8 +26,22 @@ function Header() {
     }
   }, [isInside]);
 
+  useEffect(() => {
+    setIsAboutOpen(isHoverInside);
+  }, [isHoverInside]);
+
   function handleAboutClick() {
     setIsAboutOpen(!isAboutOpen);
+  }
+
+  function handleHoverEnter() {
+    setIsAboutOpen(true);
+  }
+
+  function handleHoverLeave() {
+    if (!isInside) {
+      setIsAboutOpen(false);
+    }
   }
 
   function handleSidebarClick() {
@@ -81,7 +95,13 @@ function Header() {
         </Link>
         <div className="hidden md:flex gap-10 items-center">
           <div className="relative" ref={ref}>
-            <button onClick={handleAboutClick}>About Us</button>
+            <button
+              onClick={handleAboutClick}
+              onMouseEnter={handleHoverEnter}
+              onMouseLeave={handleHoverLeave}
+            >
+              About Us
+            </button>
             <Dropdown isOpen={isAboutOpen}>
               <div className="flex flex-col w-52 tracking-widest text-tmi-white">
                 <Link
