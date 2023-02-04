@@ -13,7 +13,7 @@ export default function History() {
       >
         <div className="history-header-animation flex items-center mt-32 mb-12 sm:mb-16">
           <div className="h-1 sm:h-2 bg-white w-[55vw]" />
-          <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold ml-5 sm:ml-9 md:ml-14">
+          <h1 className="text-white text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold ml-5 sm:ml-9 md:ml-14">
             History
           </h1>
         </div>
