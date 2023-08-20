@@ -60,7 +60,7 @@ export default function Home() {
               Live Worship Service Every <br /> Sunday at 9:30 AM
             </p>
           </div>
-          <div className="grid call-container mobile-socmed-call socmed-call w-fit mx-auto md:mx-5 mt-auto ">
+          <div className="grid call-container mobile-socmed-call socmed-call w-fit mx-auto md:mx-5 mt-auto text-white">
             <div className="flex icons">
               <SocialIcons
                 imgURL="/images/socials/instagram.png"
