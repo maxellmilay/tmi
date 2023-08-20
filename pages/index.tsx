@@ -18,7 +18,7 @@ export default function Home() {
         <title>TMI Fellowship</title>
       </Head>
       <Layout>
-        <Section className="h-screen flex flex-col justify-end bg-[url('/images/home/latest-sermon.webp')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pb-16">
+        <Section className="h-[100dvh] flex flex-col justify-end bg-[url('/images/home/latest-sermon.webp')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pb-16">
           <div className="home-landing-animation">
             <h1 className="text-white text-2xl sm:text-3xl font-light">
               LATEST SERMON
@@ -46,7 +46,7 @@ export default function Home() {
             </a>
           </div>
         </Section>
-        <Section className="h-screen flex flex-col bg-[url('/images/home/welcome-to-tmi.webp')] no-repeat px-6 sm:px-10 bg-cover bg-top p-5">
+        <Section className="h-[100dvh] flex flex-col bg-[url('/images/home/welcome-to-tmi.webp')] no-repeat px-6 sm:px-10 bg-cover bg-top p-5">
           <div className="flex flex-col items-center mt-14" data-aos="fade-up">
             <p className="text-white text-xl sm:text-3xl font-thin mb-4">
               Welcome to
@@ -87,7 +87,7 @@ export default function Home() {
             </p>
           </div>
         </Section>
-        <Section className="h-screen flex flex-col-reverse sm:flex-row">
+        <Section className="h-[100dvh] flex flex-col-reverse sm:flex-row">
           <div className="flex flex-col text-center sm:text-right bg-[url('/images/home/cause-of-christ.webp')] h-full sm:w-1/2 bg-cover items-center sm:items-end px-7 lg:px-14 justify-center">
             <p className="text-tmi-blue text-[1.8rem] leading-[2.2rem] sm:text-4xl lg:text-6xl mb-4 sm:mb-8 max-w-sm sm:max-w-lg">
               Investing for the{" "}
@@ -108,7 +108,7 @@ export default function Home() {
             <div className="h-full w-full bg-[url('/images/home/investing-pic.webp')] bg-cover bg-top scale-105 hover:scale-100 hover:duration-500 transition-all" />
           </div>
         </Section>
-        <Section className="h-screen flex flex-col-reverse sm:flex-row-reverse">
+        <Section className="h-[100dvh] flex flex-col-reverse sm:flex-row-reverse">
           <div className="flex flex-col text-center sm:text-left bg-[url('/images/home/rooted-in-education.webp')] h-full sm:w-1/2 bg-cover items-center sm:items-start px-7 lg:px-14 justify-center">
             <p className="text-tmi-blue text-[1.8rem] leading-[2.2rem] sm:text-4xl lg:text-6xl mb-4 sm:mb-8 max-w-sm sm:max-w-lg">
               Rooted in <span className="font-bold">Education</span>

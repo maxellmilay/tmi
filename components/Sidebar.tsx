@@ -17,7 +17,7 @@ function Sidebar(props: PropsInterface) {
   }
 
   return (
-    <div className="fixed z-10 text-white w-screen h-screen overflow-auto bg-tmi-blue pt-24 px-10 sm:px-32 flex flex-col gap-6 text-2xl">
+    <div className="fixed z-10 text-white w-screen h-[100dvh] overflow-auto bg-tmi-blue pt-24 px-10 sm:px-32 flex flex-col gap-6 text-2xl">
       <div>
         <button onClick={handleAboutClick}>About Us</button>
         <div
