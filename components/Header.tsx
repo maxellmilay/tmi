@@ -87,7 +87,12 @@ function Header() {
         </Link>
         <div className="hidden md:flex gap-10 items-center">
           <div className="relative" ref={ref}>
-            <button onClick={handleAboutClick}>About Us</button>
+            <button
+              onClick={handleAboutClick}
+              className="hover:-translate-y-1 duration-200"
+            >
+              About Us
+            </button>
             <Dropdown isOpen={isAboutOpen}>
               <div className="flex flex-col w-52 tracking-widest text-tmi-white">
                 <Link
@@ -111,10 +116,28 @@ function Header() {
               </div>
             </Dropdown>
           </div>
-          <Link href={Routes.EVENTS}>Events</Link>
-          <Link href={Routes.MINISTRIES}>Ministries</Link>
-          <Link href={Routes.SERMONS}>Sermons</Link>
-          <Link className="font-bold" href={Routes.GIVE}>
+          <Link
+            href={Routes.EVENTS}
+            className="hover:-translate-y-1 duration-200"
+          >
+            Events
+          </Link>
+          <Link
+            href={Routes.MINISTRIES}
+            className="hover:-translate-y-1 duration-200"
+          >
+            Ministries
+          </Link>
+          <Link
+            href={Routes.SERMONS}
+            className="hover:-translate-y-1 duration-200"
+          >
+            Sermons
+          </Link>
+          <Link
+            className="font-bold hover:-translate-y-1 duration-200"
+            href={Routes.GIVE}
+          >
             Give
           </Link>
         </div>
