@@ -6,6 +6,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Link from "next/link";
 import Head from "next/head";
+import ExternalLinks from "@/enums/externalLinks";
+import Routes from "@/enums/routes";
+import Anchors from "@/enums/anchors";
 
 export default function Home() {
   useEffect(() => {
@@ -27,7 +30,7 @@ export default function Home() {
               The Premise of the Promise <br /> of a Happy New Year
             </p>
             <a
-              href="https://www.facebook.com/tmifellowship/videos/550880893729724"
+              href={ExternalLinks.LATEST_SERMON}
               target="_blank"
               rel="noreferrer"
             >
@@ -35,11 +38,7 @@ export default function Home() {
                 Watch Now
               </button>
             </a>
-            <a
-              href="https://www.facebook.com/tmifellowship/videos"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={ExternalLinks.FB_VIDEOS} target="_blank" rel="noreferrer">
               <button className="text-white bg-transparent border border-white rounded-3xl py-1 sm:py-1.5 px-4 sm:px-7 text-[0.6rem] sm:text-xl">
                 See More Sermons
               </button>
@@ -66,17 +65,17 @@ export default function Home() {
               <SocialIcons
                 imgURL="/images/socials/instagram.png"
                 alt="Instagram"
-                link="https://www.instagram.com/tmifellowship"
+                link={ExternalLinks.INSTAGRAM}
               />
               <SocialIcons
                 imgURL="/images/socials/facebook.png"
                 alt="Facebook"
-                link="https://www.facebook.com/tmifellowship"
+                link={ExternalLinks.FACEBOOK}
               />
               <SocialIcons
                 imgURL="/images/socials/youtube.png"
                 alt="Youtube"
-                link="https://www.youtube.com/channel/UCXMRU2-nQZwMNQyjM64mLJA"
+                link={ExternalLinks.YOUTUBE}
               />
             </div>
             <p className="font-bold call text-center md:text-left text-xs">

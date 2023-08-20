@@ -2,6 +2,7 @@ import Image from "next/image";
 import TakeMeHomeButton from "@/components/TakeMeHomeButton";
 import Layout from "@/components/Layout";
 import Head from "next/head";
+import NotFoundImage from '@/public/images/sad-face.png'
 
 export default function PageNotFound() {
   return (
@@ -12,7 +13,7 @@ export default function PageNotFound() {
       <Layout>
         <div className="text-tmi-blue text-center flex flex-col items-center justify-center gap-6 h-empty">
           <Image
-            src="/images/sad-face.png"
+            src={NotFoundImage}
             alt="sad face"
             width={100}
             height={100}

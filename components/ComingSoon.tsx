@@ -1,6 +1,7 @@
 import Image from "next/image";
 import TakeMeHomeButton from "@/components/TakeMeHomeButton";
 import useScreen from "@/hooks/useScreen";
+import ComingSoonLogo from "@/public/images/coming-soon-logo.png";
 
 export default function ComingSoon() {
   const [windowSize] = useScreen();
@@ -9,7 +10,7 @@ export default function ComingSoon() {
     <div className="text-tmi-blue flex flex-col justify-center items-center gap-6 h-empty">
       <div className="flex max-sm:flex-col gap-4 mb-5 justify-center items-center">
         <Image
-          src="/images/coming-soon-logo.png"
+          src={ComingSoonLogo}
           alt="coming soong logo"
           width={windowSize > 640 ? 200 : 100}
           height={windowSize > 640 ? 100 : 50}
