@@ -6,6 +6,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Link from "next/link";
 import Head from "next/head";
+import ExternalLinks from "@/enums/externalLinks";
+import Routes from "@/enums/routes";
+import Anchors from "@/enums/anchors";
 
 export default function Home() {
   useEffect(() => {
@@ -18,7 +21,7 @@ export default function Home() {
         <title>TMI Fellowship</title>
       </Head>
       <Layout>
-        <Section className="h-screen flex flex-col justify-end bg-[url('/images/home/latest-sermon.webp')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pb-16">
+        <Section className="h-[100dvh] flex flex-col justify-end bg-[url('/images/home/latest-sermon.webp')] no-repeat bg-cover bg-bottom px-6 sm:px-10 pb-16">
           <div className="home-landing-animation">
             <h1 className="text-white text-2xl sm:text-3xl font-light">
               LATEST SERMON
@@ -27,7 +30,7 @@ export default function Home() {
               The Premise of the Promise <br /> of a Happy New Year
             </p>
             <a
-              href="https://www.facebook.com/tmifellowship/videos/550880893729724"
+              href={ExternalLinks.LATEST_SERMON}
               target="_blank"
               rel="noreferrer"
             >
@@ -35,18 +38,14 @@ export default function Home() {
                 Watch Now
               </button>
             </a>
-            <a
-              href="https://www.facebook.com/tmifellowship/videos"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={ExternalLinks.FB_VIDEOS} target="_blank" rel="noreferrer">
               <button className="text-white bg-transparent border border-white rounded-3xl py-1 sm:py-1.5 px-4 sm:px-7 text-[0.6rem] sm:text-xl">
                 See More Sermons
               </button>
             </a>
           </div>
         </Section>
-        <Section className="h-screen flex flex-col bg-[url('/images/home/welcome-to-tmi.webp')] no-repeat px-6 sm:px-10 bg-cover bg-top p-5">
+        <Section className="h-[100dvh] flex flex-col bg-[url('/images/home/welcome-to-tmi.webp')] no-repeat px-6 sm:px-10 bg-cover bg-top p-5">
           <div className="flex flex-col items-center mt-14" data-aos="fade-up">
             <p className="text-white text-xl sm:text-3xl font-thin mb-4">
               Welcome to
@@ -61,22 +60,22 @@ export default function Home() {
               Live Worship Service Every <br /> Sunday at 9:30 AM
             </p>
           </div>
-          <div className="grid call-container mobile-socmed-call socmed-call w-fit mx-auto md:mx-5 mt-auto ">
+          <div className="grid call-container mobile-socmed-call socmed-call w-fit mx-auto md:mx-5 mt-auto text-white">
             <div className="flex icons">
               <SocialIcons
                 imgURL="/images/socials/instagram.png"
                 alt="Instagram"
-                link="https://www.instagram.com/tmifellowship"
+                link={ExternalLinks.INSTAGRAM}
               />
               <SocialIcons
                 imgURL="/images/socials/facebook.png"
                 alt="Facebook"
-                link="https://www.facebook.com/tmifellowship"
+                link={ExternalLinks.FACEBOOK}
               />
               <SocialIcons
                 imgURL="/images/socials/youtube.png"
                 alt="Youtube"
-                link="https://www.youtube.com/channel/UCXMRU2-nQZwMNQyjM64mLJA"
+                link={ExternalLinks.YOUTUBE}
               />
             </div>
             <p className="font-bold call text-center md:text-left text-xs">
@@ -87,7 +86,7 @@ export default function Home() {
             </p>
           </div>
         </Section>
-        <Section className="h-screen flex flex-col-reverse sm:flex-row">
+        <Section className="h-[100dvh] flex flex-col-reverse sm:flex-row">
           <div className="flex flex-col text-center sm:text-right bg-[url('/images/home/cause-of-christ.webp')] h-full sm:w-1/2 bg-cover items-center sm:items-end px-7 lg:px-14 justify-center">
             <p className="text-tmi-blue text-[1.8rem] leading-[2.2rem] sm:text-4xl lg:text-6xl mb-4 sm:mb-8 max-w-sm sm:max-w-lg">
               Investing for the{" "}
@@ -108,7 +107,7 @@ export default function Home() {
             <div className="h-full w-full bg-[url('/images/home/investing-pic.webp')] bg-cover bg-top scale-105 hover:scale-100 hover:duration-500 transition-all" />
           </div>
         </Section>
-        <Section className="h-screen flex flex-col-reverse sm:flex-row-reverse">
+        <Section className="h-[100dvh] flex flex-col-reverse sm:flex-row-reverse">
           <div className="flex flex-col text-center sm:text-left bg-[url('/images/home/rooted-in-education.webp')] h-full sm:w-1/2 bg-cover items-center sm:items-start px-7 lg:px-14 justify-center">
             <p className="text-tmi-blue text-[1.8rem] leading-[2.2rem] sm:text-4xl lg:text-6xl mb-4 sm:mb-8 max-w-sm sm:max-w-lg">
               Rooted in <span className="font-bold">Education</span>

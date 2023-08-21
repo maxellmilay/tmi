@@ -11,6 +11,8 @@ import { AiOutlineClose } from "react-icons/ai";
 import Sidebar from "./Sidebar";
 import useScreen from "@/hooks/useScreen";
 import { MEDIUM_SCREEN } from "@/constants/screen";
+import Routes from "@/enums/routes";
+import Anchors from "@/enums/anchors";
 
 function Header() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -85,34 +87,57 @@ function Header() {
         </Link>
         <div className="hidden md:flex gap-10 items-center">
           <div className="relative" ref={ref}>
-            <button onClick={handleAboutClick}>About Us</button>
+            <button
+              onClick={handleAboutClick}
+              className="hover:-translate-y-1 duration-200"
+            >
+              About Us
+            </button>
             <Dropdown isOpen={isAboutOpen}>
               <div className="flex flex-col w-52 tracking-widest text-tmi-white">
                 <Link
                   className="p-2 hover:bg-tmi-hover-navbar"
-                  href="/about#history"
+                  href={Routes.ABOUT + Anchors.HISTORY}
                 >
                   History
                 </Link>
                 <Link
                   className="p-2 hover:bg-tmi-hover-navbar"
-                  href="/about#mission"
+                  href={Routes.ABOUT + Anchors.MISSION}
                 >
                   Mission
                 </Link>
                 <Link
                   className="p-2 hover:bg-tmi-hover-navbar"
-                  href="/about#statement"
+                  href={Routes.ABOUT + Anchors.STATEMENT}
                 >
                   Statement of Faith
                 </Link>
               </div>
             </Dropdown>
           </div>
-          <Link href="/events">Events</Link>
-          <Link href="/ministries">Ministries</Link>
-          <Link href="/sermons">Sermons</Link>
-          <Link className="font-bold" href="/give">
+          <Link
+            href={Routes.EVENTS}
+            className="hover:-translate-y-1 duration-200"
+          >
+            Events
+          </Link>
+          <Link
+            href={Routes.MINISTRIES}
+            className="hover:-translate-y-1 duration-200"
+          >
+            Ministries
+          </Link>
+          <Link
+            href={Routes.SERMONS}
+            className="hover:-translate-y-1 duration-200"
+          >
+            Sermons
+          </Link>
+          <Link
+            className="font-bold hover:-translate-y-1 duration-200"
+            href={Routes.GIVE}
+          >
             Give
           </Link>
         </div>
